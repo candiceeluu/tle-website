@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem;
+    z-index: 1000;
+}
+
+#header-logo {
+    max-width: 40%;
+    height: auto;
+}
+
+.join-btn {
+    background-color: #6BB96A;
+    color: black;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+}
+
+.header-nav-menu {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 1.5rem 4rem;
+    }
+    .header-hamburger {
+        display: none;
+    }
+
+    #header-logo {
+        max-width: 7%;
+    }
+
+    .header-nav-menu {
+        display: flex;
+        gap: 7rem;
+    }
+
+    .join-btn {
+        padding: 0.7rem 1.6rem;
+    }
+}
