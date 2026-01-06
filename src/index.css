@@ -6,7 +6,7 @@
   --text-med: 1.75rem; /* 32 */
   --text-lg: 2rem; /* 36 */
   --text-xlg: 2.75rem; /* 48 */
-  --text-xxlg: 3.75rem; /* 64 */
+  --text-xxlg: 3.25rem; /* 64 */
 }
 
 body {
@@ -94,7 +94,59 @@ h5, p, .p {
   font-weight: 600;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  h1 {
+    font-size: var(--text-lg);
+  }
+
+  h2 {
+    font-size: var(--text-med);
+  }
+
+  h3 {
+    font-size: var(--text-base);
+  }
+
+  h4 {
+    font-size: var(--text-base);
+  }
+
+  h5 {
+    font-size: var(--text-s);
+  }
+
+  p, .p {
+    font-size: var(--text-xs);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  h1 {
+    font-size: var(--text-xlg);
+  }
+
+  h2 {
+    font-size: var(--text-lg);
+  }
+
+  h3 {
+    font-size: var(--text-med);
+  }
+
+  h4 {
+    font-size: var(--text-base);
+  }
+
+  h5 {
+    font-size: var(--text-s);
+  }
+
+  p, .p {
+    font-size: var(--text-s);
+  }
+}
+
+@media screen and (min-width: 1280px) {
   h1 {
     font-size: var(--text-xxlg);
   }

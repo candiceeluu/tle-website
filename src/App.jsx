@@ -90,11 +90,13 @@ function App() {
   <div className="hero-5">
     <div className="hero-content-5 flex-column center-text">
       <h2>Hear from our community</h2>
-      <div className="reviews-section">
+      <div className="reviews-section flex-column">
         <div className="review-box">
           <div className="review-box-content flex-column">
-            <img className="quote-icon" src="/images/quote.svg" />
-            <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            <div className="review-box-content-quote flex-column">
+              <img className="quote-icon" src="/images/quote.svg" />
+              <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            </div>
             <div className="review-box-content-caption flex-column">
               <p className="semibold-text">Student Testimonial</p>
               <p>6th Grade Afterschool</p>
@@ -103,8 +105,10 @@ function App() {
         </div>
         <div className="review-box">
           <div className="review-box-content flex-column">
-            <img className="quote-icon" src="/images/quote.svg" />
-            <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            <div className="review-box-content-quote flex-column">
+              <img className="quote-icon" src="/images/quote.svg" />
+              <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            </div>
             <div className="review-box-content-caption flex-column">
               <p className="semibold-text">Student Testimonial</p>
               <p>6th Grade Afterschool</p>
@@ -113,8 +117,10 @@ function App() {
         </div>
         <div className="review-box">
           <div className="review-box-content flex-column">
-            <img className="quote-icon" src="/images/quote.svg" />
-            <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            <div className="review-box-content-quote flex-column">
+              <img className="quote-icon" src="/images/quote.svg" />
+              <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
+            </div>
             <div className="review-box-content-caption flex-column">
               <p className="semibold-text">Student Testimonial</p>
               <p>6th Grade Afterschool</p>

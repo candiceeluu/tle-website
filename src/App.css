@@ -149,17 +149,22 @@ body {
 }
 
 .reviews-section {
-  background-image: url("images/reviews-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #649EE0;
+  background: linear-gradient(-66deg, rgba(100, 158, 224, 1) 0%, rgba(169, 199, 168, 1) 100%);
+  border-radius: 1rem;
+  padding: 1.7rem;
+  gap: 1rem;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .review-box {
   background: white;
-  margin: 1.7rem;
   border-radius: 1rem;
   text-align: left;
-  height: 300px;
+  height: 310px;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .quote-icon {
@@ -167,13 +172,17 @@ body {
 }
 
 .review-box-content {
-  padding: 2rem;
   gap: 1rem;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.review-box-content-quote {
+  gap: 2rem;
 }
 
 .review-box-content-caption {
   gap: 0.2rem;
-  margin-top: 3rem;
 }
 
 /* hero 6 */
@@ -227,7 +236,7 @@ body {
   border-radius: 2rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .icon {
     width: 4rem;
   }
@@ -242,7 +251,7 @@ body {
   .hero-content-1 {
     color: black;
     justify-content: flex-start;
-    padding: 5rem 50rem 0rem 4rem;
+    padding: 6% 50% 25% 4rem;
   }
 
   .green-gradient-text {
@@ -257,12 +266,194 @@ body {
   .hero-btn-1 {
     border-color: black;
     color: black;
+    border-width: 0.1rem;
   }
 
   /* all heroes */
 
   .hero-2, .hero-3, .hero-4, .hero-5, .hero-6, .hero-7 {
-    padding: 0rem 10rem;
+    padding: 0px 10%;
+    margin-top: 8rem;
+  }
+
+  /* hero 2 */
+
+  .hero-buttons-section-2 {
+    display: none;
+  }
+
+  .hero-2 {
+    margin-top: 0rem;
+  }
+
+  .hero-img-2 {
+    display: block;
+    object-fit: contain;
+    width: 40%;
+    border-radius: 1rem;
+  }
+
+  .hero-content-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding: 4rem 0rem;
+  }
+
+  .hero-btn-2 {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  .hero-text-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 700px;
+  }
+
+  /* hero 3 */
+
+  .hero-content-3 {
+    gap: 2rem;
+  }
+
+  .school-row {
+    margin-top: 2rem;
+    gap: 8rem;
+  }
+
+  .school-logo {
+    width: 7rem;
+  }
+
+  /* hero 4 */
+
+  .services-box-section {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .services-box {
+    width: 30%;
+    margin: 0;
+    padding: 5rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .services-box-text {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* hero 5 */
+
+  .hero-content-5 {
+    gap: 4rem;
+  }
+
+  .reviews-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .review-box {
+    padding: 2.5rem;
+    height: 400px;
+    width: 30%;
+  }
+
+  .review-box-content-caption {
+    justify-content: flex-end;
+  }
+
+  /* hero 6 */
+
+  .hero-6 {
+    padding-right: 0;
+  }
+
+  .hero-content-6 {
+    flex-direction: row;
+  }
+
+  .hero-content-text-6 {
+    margin-top: 6rem;
+  }
+
+  .hero-6-stat-section {
+    gap: 3rem;
+  }
+
+  .hero-img-6 {
+    display: block;
+    width: 600px;
+  }
+
+  /* hero 7 */
+
+  .hero-7 {
+    margin: 8rem;
+    padding: 4rem;
+  }
+
+  .hero-content-7 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-content-text-7 {
+    text-align: left;
+  }
+
+  .hero-content-img-7 {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .icon {
+    width: 4rem;
+  }
+
+  /* hero 1 */
+
+  .hero-1 {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .hero-content-1 {
+    color: black;
+    justify-content: flex-start;
+    padding: 8% 50% 25% 4rem;
+  }
+
+  .green-gradient-text {
+    background-image: linear-gradient(to right, #386238, #83A682);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  .hero-btn-1 {
+    border-color: black;
+    color: black;
+    border-width: 0.1rem;
+  }
+
+  /* all heroes */
+
+  .hero-2, .hero-3, .hero-4, .hero-5, .hero-6, .hero-7 {
+    padding: 0px 10%;
     margin-top: 8rem;
   }
 
@@ -286,19 +477,21 @@ body {
   .hero-content-2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 5rem;
     padding: 4rem 0rem;
   }
 
   .hero-btn-2 {
     display: block;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .hero-text-2 {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    width: 700px;
   }
 
   /* hero 3 */
@@ -325,9 +518,9 @@ body {
   }
 
   .services-box {
-    width: 320px;
+    width: 30%;
     margin: 0;
-    padding: 5.5rem 3rem;
+    padding: 5.5rem 2rem;
     gap: 2rem;
   }
 
@@ -345,16 +538,18 @@ body {
   }
 
   .reviews-section {
-    background-image: url("images/reviews-bg-horizontal.png");
-    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
   }
 
   .review-box {
-    height: 420px;
+    height: 450px;
+    width: 30%;
   }
 
   .review-box-content-caption {
-    margin-top: 4rem;
+    justify-content: flex-end;
   }
 
   /* hero 6 */
@@ -365,6 +560,10 @@ body {
 
   .hero-content-6 {
     flex-direction: row;
+  }
+
+  .hero-content-text-6 {
+    margin-top: 6rem;
   }
 
   .hero-6-stat-section {
