@@ -3,8 +3,8 @@ import './Header.css'
 function Header() {
     return (
         <div className="header">
-            <img className="header-hamburger" src="src/assets/hamburger.svg" />
-            <img src="src/assets/tle-logo.jpeg" id="header-logo" />
+            <img className="header-hamburger" src="images/hamburger.svg" />
+            <img src="images/tle-logo.jpeg" id="header-logo" />
             <div className="header-nav-menu p">
                 <a>About Us</a>
                 <a>Math Prep</a>

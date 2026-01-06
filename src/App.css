@@ -149,7 +149,7 @@ body {
 }
 
 .reviews-section {
-  background-image: url("src/assets/reviews-bg.png");
+  background-image: url("images/reviews-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -345,7 +345,7 @@ body {
   }
 
   .reviews-section {
-    background-image: url("src/assets/reviews-bg-horizontal.png");
+    background-image: url("images/reviews-bg-horizontal.png");
     display: flex;
   }
 

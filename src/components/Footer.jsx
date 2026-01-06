@@ -6,10 +6,10 @@ function Footer() {
         <div className="footer">
             <div className="footer-logo-icons-contact">
                 <div className="footer-logo-icons">
-                    <img src="/src/assets/tle-logo.jpeg" id="footer-logo" />
+                    <img src="/images/tle-logo.jpeg" id="footer-logo" />
                     <div className="footer-icons">
-                        <img src="/src/assets/instagram-blue.svg" />
-                        <img src="/src/assets/facebook-blue.svg" />
+                        <img src="/images/instagram-blue.svg" />
+                        <img src="/images/facebook-blue.svg" />
                     </div>
                 </div>
                 <div className="footer-text blue-text">
