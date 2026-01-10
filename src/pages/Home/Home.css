@@ -1,0 +1,420 @@
+body {
+    margin:0;
+    padding: 0;
+  }
+  
+  .icon {
+    width: 3rem;
+  }
+  
+  .bg {
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .green-gradient-text {
+    color: white;
+  }
+  
+  .hero-wrapper {
+    position: relative;
+  }
+  
+  /* hero 1 */
+  
+  .hero-1 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-bg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .hero-content-1 {
+    position: absolute;
+    inset: 0;
+    justify-content: flex-end;
+    gap:1rem;
+    padding: 2rem;
+  }
+  
+  .hero-btn-1 {
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    margin-top: 1rem;
+  }
+  
+  /* hero 2 */
+  
+  .hero-2 {
+    background-color: #3D6CA2;
+  }
+  
+  .hero-img-2 {
+    display: none;
+  }
+  
+  .hero-btn-2 {
+    display: none;
+  }
+  
+  .hero-content-2 {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  
+  .hero-text-2, .hero-buttons-section-2 {
+    gap: 1rem;
+  }
+  
+  .hero-button-2 {
+    width: 100%;
+  }
+  
+  /* gradient background */
+  
+  .main-bg-section {
+    position: relative;
+  }
+  
+  .main-bg {
+    position: absolute;
+    z-index: 0;
+    top: 30vh;
+    width: 100%;
+    height: 160vh;
+  }
+  
+  .hero-3, .hero-4, .hero-5, .hero-6, .hero-7 {
+    position: relative;
+    z-index: 1;
+    padding: 2rem;
+  }
+  
+  /* hero 3 */
+  
+  .hero-content-3 {
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .school-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .school-logo {
+    width: 4rem;
+  }
+  
+  /* hero 4 */
+  
+  .hero-content-4 {
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .services-box-section {
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .services-box {
+    width: 250px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 3rem 3rem;
+    border-radius: 2rem;
+  }
+  
+  .services-box-text {
+    gap: 0.5rem;
+  }
+  
+  /* hero 5 */
+  
+  .hero-content-5 {
+    gap: 2rem;
+  }
+  
+  .reviews-section {
+    background: #649EE0;
+    background: linear-gradient(-66deg, rgba(100, 158, 224, 1) 0%, rgba(169, 199, 168, 1) 100%);
+    border-radius: 1rem;
+    padding: 1.7rem;
+    gap: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .review-box {
+    background: white;
+    border-radius: 1rem;
+    text-align: left;
+    height: 310px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .quote-icon {
+    width: 2.5rem;
+  }
+  
+  .review-box-content {
+    gap: 1rem;
+    height: 100%;
+    justify-content: space-between;
+  }
+  
+  .review-box-content-quote {
+    gap: 2rem;
+  }
+  
+  .review-box-content-caption {
+    gap: 0.2rem;
+  }
+  
+  /* hero 6 */
+  
+  .hero-content-text-6 {
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .hero-6-stat-section {
+    display: flex;
+    gap: 1.8rem;
+  }
+  
+  .hero-img-6 {
+    display: none;
+  }
+  
+  /* hero 7 */
+  
+  .hero-7 {
+    margin: 2rem;
+    background-image: linear-gradient(to right, #3D6CA2,  #1C3E65);
+    border-radius: 2rem;
+    padding: 3rem;
+  }
+  
+  .hero-content-7, .hero-content-text-7 {
+    gap: 1rem;
+  }
+  
+  .hero-content-text-title-7 {
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-7-info {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .hero-7-button {
+    margin-top: 0.8rem;
+    background-image: linear-gradient(to right, #9FC0E5, #C5D1DF);
+  }
+  
+  
+  .hero-content-img-7 {
+    border-radius: 2rem;
+  }
+  
+  
+  @media screen and (min-width: 1140px) {
+    .icon {
+      width: 4rem;
+    }
+  
+    /* hero 1 */
+  
+    .hero-1 {
+      width: 100%;
+      padding-bottom: 5rem;
+    }
+  
+    .hero-content-1 {
+      color: black;
+      justify-content: flex-start;
+      padding: 8% 50% 25% 4rem;
+    }
+  
+    .green-gradient-text {
+      background-image: linear-gradient(to right, #386238, #83A682);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+    
+  
+    .hero-btn-1 {
+      border-color: black;
+      color: black;
+      border-width: 0.1rem;
+    }
+  
+    /* all heroes */
+  
+    .hero-2, .hero-3, .hero-4, .hero-5, .hero-6, .hero-7 {
+      padding: 0px 10%;
+      margin-top: 8rem;
+    }
+  
+    /* hero 2 */
+  
+    .hero-buttons-section-2 {
+      display: none;
+    }
+  
+    .hero-2 {
+      margin-top: 0rem;
+    }
+  
+    .hero-img-2 {
+      display: block;
+      width: 500px;
+      height: auto;
+      border-radius: 1rem;
+    }
+  
+    .hero-content-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 5rem;
+      padding: 4rem 0rem;
+    }
+  
+    .hero-btn-2 {
+      display: block;
+      margin-top: 4rem;
+    }
+  
+    .hero-text-2 {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      width: 700px;
+    }
+  
+    /* hero 3 */
+  
+    .hero-content-3 {
+      gap: 2rem;
+    }
+  
+    .school-row {
+      margin-top: 2rem;
+      gap: 8rem;
+    }
+  
+    .school-logo {
+      width: 7rem;
+    }
+  
+    /* hero 4 */
+  
+    .services-box-section {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+  
+    .services-box {
+      width: 30%;
+      margin: 0;
+      padding: 5.5rem 2rem;
+      gap: 2rem;
+    }
+  
+    .services-box-text {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    /* hero 5 */
+  
+    .hero-content-5 {
+      gap: 4rem;
+    }
+  
+    .reviews-section {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+  
+    .review-box {
+      height: 450px;
+      width: 30%;
+    }
+  
+    .review-box-content-caption {
+      justify-content: flex-end;
+    }
+  
+    /* hero 6 */
+  
+    .hero-6 {
+      padding-right: 0;
+    }
+  
+    .hero-content-6 {
+      flex-direction: row;
+    }
+  
+    .hero-content-text-6 {
+      margin-top: 6rem;
+    }
+  
+    .hero-6-stat-section {
+      gap: 3rem;
+    }
+  
+    .hero-img-6 {
+      display: block;
+      width: 600px;
+    }
+  
+    /* hero 7 */
+  
+    .hero-7 {
+      margin: 8rem;
+      padding: 4rem;
+      max-width: 1000px;
+    }
+  
+    .hero-content-7 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .hero-content-text-7 {
+      text-align: left;
+    }
+  
+    .hero-content-img-7 {
+      max-width: 600px;
+      height: auto;
+      width: 100%;
+    }
+  }

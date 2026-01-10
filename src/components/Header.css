@@ -1,50 +1,63 @@
-.header {
-    width: 100%;
+.mobile-only {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    padding: 1.5rem;
-    z-index: 1000;
 }
 
-#header-logo {
-    max-width: 40%;
-    height: auto;
-}
-
-.join-btn {
-    background-color: #6BB96A;
-    color: black;
-    padding: 0.7rem 1rem;
-    font-weight: 500;
-}
-
-.header-nav-menu {
+.desktop-only {
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
-    .header {
-        padding: 1.5rem 4rem;
-    }
-    .header-hamburger {
+.sticky-header {
+    position: sticky;
+}
+
+.header-h {
+    height: 96px;
+}
+
+.px {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    object-fit: contain;
+    width: 150px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1140px) {
+    .mobile-only {
         display: none;
     }
 
-    #header-logo {
-        max-width: 7%;
-    }
-
-    .header-nav-menu {
+    .desktop-only {
         display: flex;
-        gap: 7rem;
     }
 
-    .join-btn {
-        padding: 0.7rem 1.6rem;
+    .px {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .mr-1 {
+        margin-right: 4rem;
+    }
+
+    .max-width {
+        max-width: 1140px;
+    }
+
+    .header-logo {
+        width: 130px;
+        object-fit: contain;
     }
 }

@@ -1,7 +1,8 @@
+/* font size */
 :root {
   background-color: #FFFDFA;
-  --text-xs: 0.75rem; /* 16 */
-  --text-s: 1rem; /* 20 */
+  --text-xs: 1rem; /* 16 */
+  --text-s: 1.25rem; /* 20 */
   --text-base: 1.25rem; /* 24 */
   --text-med: 1.75rem; /* 32 */
   --text-lg: 2rem; /* 36 */
@@ -12,55 +13,6 @@
 body {
   font-family: 'Outfit'
 }
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.button {
-  border-radius: 2rem;
-  border: none;
-  font-family: 'Outfit';
-  width: max-content;
-  padding: 0.7rem 0.9rem;
-  font-size: var(--text-xs);
-}
-
-.white-btn {
-  border-style: solid;
-  border-color: white;
-  border-width: 0.1rem;
-  color: white;
-  background-color: transparent;
-}
-
-.center-text {
-  text-align: center;
-  align-items: center;
-}
-
-.white-text {
-  color: white;
-}
-
-.black-text {
-  color: black;
-}
-
-.blue-text {
-  color: #1E4168;
-}
-
-.light-blue-text {
-  color: #3D6CA2;
-}
-
-.green-text {
-  color: #52853C;
-}
-
-/* Font Styling */
 
 h1, h2, h3, h4, h5, p {
   margin: 0;
@@ -82,9 +34,11 @@ h3, h4 {
 }
 
 h5, p, .p {
-  font-size: var(--text-sx);
+  font-size: var(--text-xs);
   font-weight: 400;
 }
+
+/* font weight */
 
 .light-text {
   font-weight: 300;
@@ -94,33 +48,122 @@ h5, p, .p {
   font-weight: 600;
 }
 
-@media screen and (min-width: 640px) and (max-width: 1023px) {
-  h1 {
-    font-size: var(--text-lg);
-  }
-
-  h2 {
-    font-size: var(--text-med);
-  }
-
-  h3 {
-    font-size: var(--text-base);
-  }
-
-  h4 {
-    font-size: var(--text-base);
-  }
-
-  h5 {
-    font-size: var(--text-s);
-  }
-
-  p, .p {
-    font-size: var(--text-xs);
-  }
+/* font color */
+.white-text {
+  color: white;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+.black-text {
+  color: black;
+}
+
+.blue-text {
+  color: #1E4168;
+}
+
+.light-blue-text {
+  color: #3D6CA2;
+}
+
+.green-text {
+  color: #52853C;
+}
+
+/* text formatting */
+ul {
+  list-style-type: none;
+}
+
+.center-text {
+  text-align: center;
+  align-items: center;
+}
+
+.right-text {
+  text-align: right;
+}
+
+/* flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+/* width/height */
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+/* buttons */
+
+.button {
+  border-radius: 2rem;
+  border: none;
+  font-family: 'Outfit';
+  width: max-content;
+  padding: 0.7rem 0.9rem;
+  font-size: var(--text-xs);
+}
+
+.button {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.white-btn {
+  border-style: solid;
+  border-color: white;
+  border-width: 0.1rem;
+  color: white;
+  background-color: transparent;
+}
+
+.black-trans-btn {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1rem;
+  color: black;
+  background-color: transparent;
+}
+
+/* background colors */
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-green {
+  background-color: #8EC58D;
+}
+
+@media screen and (min-width: 1140px) {
   h1 {
     font-size: var(--text-xlg);
   }
@@ -141,33 +184,4 @@ h5, p, .p {
     font-size: var(--text-s);
   }
 
-  p, .p {
-    font-size: var(--text-s);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  h1 {
-    font-size: var(--text-xxlg);
-  }
-
-  h2 {
-    font-size: var(--text-xlg);
-  }
-
-  h3 {
-    font-size: var(--text-lg);
-  }
-
-  h4 {
-    font-size: var(--text-med);
-  }
-
-  h5 {
-    font-size: var(--text-base);
-  }
-
-  p, .p {
-    font-size: var(--text-s);
-  }
 }
