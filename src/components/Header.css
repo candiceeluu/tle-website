@@ -1,13 +1,6 @@
-.mobile-only {
-    display: flex;
-}
-
-.desktop-only {
-    display: none;
-}
-
 .sticky-header {
     position: sticky;
+    top: 0;
 }
 
 .header-h {
@@ -35,13 +28,6 @@ a {
 }
 
 @media screen and (min-width: 1140px) {
-    .mobile-only {
-        display: none;
-    }
-
-    .desktop-only {
-        display: flex;
-    }
 
     .px {
         padding-left: 3rem;

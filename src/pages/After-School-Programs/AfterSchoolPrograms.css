@@ -1,0 +1,9 @@
+.afterschool-programs-btn-h {
+    height: 10rem;
+}
+
+@media screen and (min-width: 1140px) {
+    .afterschool-programs-btn-h {
+        height: 15rem;
+    }
+}
