@@ -222,6 +222,10 @@ ul {
   justify-content: space-between;
 }
 
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 .wrap {
   flex-wrap: wrap;
 }
@@ -232,6 +236,10 @@ ul {
 
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
 }
 
 .gap-4 {
@@ -394,6 +402,11 @@ ul {
 }
 
 /* border styling */
+.border-blue {
+  border: solid;
+  border-width: 0.2rem;
+  border-color: #3D6CA2;
+}
 .border-yellow-gradient {
   border: solid transparent;
   border-width: 0.2rem;
@@ -464,6 +477,11 @@ ul {
 .my-4 {
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+
+.mx-3 {
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .mt-1 {
   margin-top: 1rem;
@@ -539,6 +557,10 @@ ul {
 
   .lg-nav-flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .lg-nav-flex-start {
+    justify-content: flex-start;
   }
 
   .lg-nav-gap-10 {

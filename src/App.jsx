@@ -8,6 +8,8 @@ import MiddleSchoolProgram from './pages/After-School-Programs/MiddleSchoolProgr
 import HighSchoolProgram from './pages/After-School-Programs/HighSchoolProgram';
 import SummerProgram from './pages/SummerProgram';
 import MathPrep from './pages/MathPrep';
+import About from './pages/About';
+import Careers from './pages/Careers';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
     <Route path="/high-school-program" element={<HighSchoolProgram />} />
     <Route path="/summer-program" element={<SummerProgram />} />
     <Route path="/math-prep" element={<MathPrep />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/careers" element={<Careers />} />
   </Routes>
   </>
  )
