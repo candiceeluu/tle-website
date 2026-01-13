@@ -1,44 +1,54 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import './AfterSchoolPrograms.css'
+import { Link, useNavigate } from 'react-router-dom'
+import HeroCard from '../../components/HeroCard';
 
 function AfterSchoolPrograms() {
+    const navigate = useNavigate();
     return (
         <>
         <Header />
-        <div aria-label="afterschool-programs-hero" className="">
-            <div aria-label="afterschool-programs-content" className="bg-afterschool bg-img bg-shading lg-nav-border-radius-2 max-width mx-auto border-box p-2 lg-nav-p-3 white-text">
-                <h1 className="mt-2 lg-nav-mt-4">After-School Programs</h1>
-                <p className="mt-1">Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
-                <button className="button white-btn mt-1">Sign Up</button>
-            </div>
-        </div>
+
+        <HeroCard 
+            title="After-School Programs"
+            description="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis."
+            buttonText="Sign Up"
+            onButtonClick= ""
+            backgroundClass='bg-afterschool'
+        />
 
         <div aria-label="afterschool-programs-btn" className="mt-4">
             <div aria-label="afterschool-programs-btn-content" className="max-width mx-auto flex wrap gap-4 justify-center align-center lg-nav-gap-10">
-                <div aria-label="elementary-program-btn" className="flex-column align-center">
-                    <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
-                    <div className="flex-column align-center">
-                        <h5>Elementary Program</h5>
-                        <p>K-5th Grade</p>
+                <Link to="/elementary-program">
+                    <div aria-label="elementary-program-btn" className="flex-column align-center">
+                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
+                        <div className="flex-column align-center">
+                            <h5>Elementary Program</h5>
+                            <p>K-5th Grade</p>
+                        </div>
                     </div>
-                </div>
+                </Link>
+                
+                <Link to="/middle-school-program">
+                    <div aria-label="middle-school-btn" className="flex-column align-center">
+                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/middle-school-program-btn.png" />
+                        <div className="flex-column align-center">
+                            <h5>Middle School Program</h5>
+                            <p>6th-8th Grade</p>
+                        </div>
+                    </div>
+                </Link>
 
-                <div aria-label="elementary-program-btn" className="flex-column align-center">
-                    <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/middle-school-program-btn.png" />
-                    <div className="flex-column align-center">
-                        <h5>Middle School Program</h5>
-                        <p>6th-8th Grade</p>
+                <Link to="/high-school-program">
+                    <div aria-label="high-school-program-btn" className="flex-column align-center">
+                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/high-school-program-btn.png" />
+                        <div className="flex-column align-center">
+                            <h5>High School Program</h5>
+                            <p>9th-12th Grade</p>
+                        </div>
                     </div>
-                </div>
-
-                <div aria-label="elementary-program-btn" className="flex-column align-center">
-                    <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/high-school-program-btn.png" />
-                    <div className="flex-column align-center">
-                        <h5>High School Program</h5>
-                        <p>9th-12th Grade</p>
-                    </div>
-                </div>
+                </Link>
             </div>
         </div>
 
@@ -111,11 +121,11 @@ function AfterSchoolPrograms() {
                     </div>
                     <div aria-label="elementary-program-text" className="p-2 lg-nav-p-3 flex-column">
                         <p className="white-text right-text">
-                            <span className='bg-dark-yellow border-radius-2 p-1'>1st-5th grade</span>
+                            <span className='bg-dark-yellow border-radius-2 p-08'>1st-5th grade</span>
                         </p>
                         <h2 className="mt-1 lg-nav-mt-4">Elementary Program</h2>
                         <p className="lg-nav-mt-1">Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum.</p>
-                        <button className="button bg-dark-cream border-yellow-gradient mt-1 lg-nav-mt-4">Learn More</button>
+                        <button onClick={() => navigate("/elementary-program")} className="button bg-dark-cream border-yellow-gradient mt-1 lg-nav-mt-4">Learn More</button>
                     </div>
                 </div>
                 <div aria-label="middle-school-program" className='mt-3 flex-column bg-green border-box border-radius-2 overflow-hidden lg-nav-flex-row-reverse'>
@@ -124,11 +134,11 @@ function AfterSchoolPrograms() {
                     </div>
                     <div aria-label="middle-school-text" className="p-2 lg-nav-p-3 flex-column">
                         <p className="white-text right-text">
-                            <span className='bg-dark-green border-radius-2 p-1'>6th-8th grade</span>
+                            <span className='bg-dark-green border-radius-2 p-08'>6th-8th grade</span>
                         </p>
                         <h2 className="mt-1 lg-nav-mt-4">Middle School Program</h2>
                         <p className="lg-nav-mt-1">Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum.</p>
-                        <button className="button bg-dark-cream border-green-gradient mt-1 lg-nav-mt-4">Learn More</button>
+                        <button onClick={() => navigate("/middle-school-program")} className="button bg-dark-cream border-green-gradient mt-1 lg-nav-mt-4">Learn More</button>
                     </div>
                 </div>
                 <div aria-label="high-school-program" className='mt-3 flex-column bg-light-blue border-box border-radius-2 overflow-hidden lg-nav-flex-row-reverse'>
@@ -137,11 +147,11 @@ function AfterSchoolPrograms() {
                     </div>
                     <div aria-label="high-school-program-text" className="p-2 lg-nav-p-3 flex-column">
                         <p className="white-text right-text">
-                            <span className='bg-dark-blue border-radius-2 p-1'>9th-12th grade</span>
+                            <span className='bg-dark-blue border-radius-2 p-08'>9th-12th grade</span>
                         </p>
                         <h2 className="mt-1 lg-nav-mt-4">High School Program</h2>
                         <p className="lg-nav-mt-1">Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum.</p>
-                        <button className="button bg-dark-cream border-blue-gradient mt-1 lg-nav-mt-4">Learn More</button>
+                        <button onClick={() => navigate("/high-school-program")} className="button bg-dark-cream border-blue-gradient mt-1 lg-nav-mt-4">Learn More</button>
                     </div>
                 </div>
             </div>

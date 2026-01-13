@@ -23,7 +23,7 @@ function Header() {
                         </Link>
                         <ul className="flex align-center">
                             <li className="mr-1">About Us</li>
-                            <li className="mr-1">Math Prep</li>
+                            <li className="mr-1"><Link to="/math-prep">Math Prep</Link></li>
                             <li className="mr-1"><Link to="/programs">Programs</Link></li>
                             <li className="mr-1">Careers</li>
                             <li className="mr-1">Contact</li>

@@ -34,25 +34,29 @@ function Programs() {
                     </div>
                 </Link>
 
-                <div aria-label="summer-program-link" className="bg-summer-program bg-img bg-shading border-radius-2 p-2 mt-2">
-                    <div className="right-text">
-                        <h2>LEARN MORE</h2>
+                <Link to="/summer-program">
+                    <div aria-label="summer-program-link" className="bg-summer-program bg-img bg-shading border-radius-2 p-2 mt-2">
+                        <div className="right-text">
+                            <h2>LEARN MORE</h2>
+                        </div>
+                        <div className="mt-4">
+                            <p>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
+                            <h1 className="mt-1">Summer Programs</h1>
+                        </div>
                     </div>
-                    <div className="mt-4">
-                        <p>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
-                        <h1 className="mt-1">Summer Programs</h1>
+                </Link>
+                
+                <Link to="/math-prep">
+                    <div aria-label="math-prep-link" className="bg-math-prep bg-img bg-shading border-radius-2 p-2 mt-2">
+                        <div className="right-text">
+                            <h2>LEARN MORE</h2>
+                        </div>
+                        <div className="mt-4">
+                            <p>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
+                            <h1 className="mt-1">Math Prep</h1>
+                        </div>
                     </div>
-                </div>
-
-                <div aria-label="math-prep-link" className="bg-math-prep bg-img bg-shading border-radius-2 p-2 mt-2">
-                    <div className="right-text">
-                        <h2>LEARN MORE</h2>
-                    </div>
-                    <div className="mt-4">
-                        <p>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
-                        <h1 className="mt-1">Math Prep</h1>
-                    </div>
-                </div>
+                </Link>
 
                 <div aria-label="private-tutoring-link" className="bg-private-tutoring bg-img bg-shading border-radius-2 p-2 mt-2">
                     <div className="right-text">

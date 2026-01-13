@@ -250,15 +250,6 @@ body {
     padding: 6% 50% 25% 4rem;
   }
 
-  .green-gradient-text {
-    background-image: linear-gradient(to right, #386238, #83A682);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-  }
-  
-
   .hero-btn-1 {
     border-color: black;
     color: black;

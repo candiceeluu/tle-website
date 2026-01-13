@@ -98,7 +98,7 @@ const navigate = useNavigate();
         <div className="review-box">
           <div className="review-box-content flex-column">
             <div className="review-box-content-quote flex-column">
-              <img className="quote-icon" src="/images/quote.svg" />
+              <img className="quote-icon" src="/icons/quote.svg" />
               <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
             </div>
             <div className="review-box-content-caption flex-column">
@@ -110,7 +110,7 @@ const navigate = useNavigate();
         <div className="review-box">
           <div className="review-box-content flex-column">
             <div className="review-box-content-quote flex-column">
-              <img className="quote-icon" src="/images/quote.svg" />
+              <img className="quote-icon" src="/icons/quote.svg" />
               <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
             </div>
             <div className="review-box-content-caption flex-column">
@@ -122,7 +122,7 @@ const navigate = useNavigate();
         <div className="review-box">
           <div className="review-box-content flex-column">
             <div className="review-box-content-quote flex-column">
-              <img className="quote-icon" src="/images/quote.svg" />
+              <img className="quote-icon" src="/icons/quote.svg" />
               <h4>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
             </div>
             <div className="review-box-content-caption flex-column">

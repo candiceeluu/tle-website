@@ -57,6 +57,10 @@ h5, p, .p {
   font-weight: 600;
 }
 
+.bold-text {
+  font-weight: 700;
+}
+
 /* font color */
 .white-text {
   color: white;
@@ -78,6 +82,30 @@ h5, p, .p {
   color: #52853C;
 }
 
+.yellow-gradient-text {
+  background-image: linear-gradient(to right, #F9AE00, #DECDA5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-gradient-text {
+  background-image: linear-gradient(to right, #386238, #83A682);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient-text {
+  background-image: linear-gradient(to right, #1E4168, #57A5FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 /* text formatting */
 ul {
   list-style-type: none;
@@ -85,6 +113,72 @@ ul {
 
 .bullet-points {
   list-style-type: circle;
+}
+
+.check-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-bullets li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.check-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/icons/check-bullets.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green-star-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.green-star-bullets li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.green-star-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/icons/green-star-bullet.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blue-star-bullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+.blue-star-bullets li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.blue-star-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('/icons/blue-star-bullet.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .center-text {
@@ -104,6 +198,11 @@ ul {
 /* flex */
 .flex {
   display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-column {
@@ -139,10 +238,22 @@ ul {
   gap: 4rem;
 }
 
+.gap-8 {
+  gap: 8rem;
+}
+
 /* width/height */
 
 .w-full {
   width: 100%;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.w-20p {
+  width: 25%;
 }
 
 .h-full {
@@ -190,6 +301,13 @@ ul {
   background-color: transparent;
 }
 
+.red-trans-btn {
+  border-style: solid;
+  border-color: #E08283;
+  border-width: 0.1rem;
+  color: #E08283;
+  background-color: transparent;
+}
 /* icons */
 .icon {
   width: 3rem;
@@ -208,10 +326,27 @@ ul {
   overflow: hidden;
 }
 
+
 /* background colors */
 
 .bg-white {
   background-color: white;
+}
+
+.bg-black {
+  background-color: #272727;
+}
+
+.bg-red {
+  background-color: #E08283;
+}
+
+.bg-purple {
+  background-color: #867CCE;
+}
+
+.bg-light-green {
+  background-color: #CAEBBC;
 }
 
 .bg-green {
@@ -222,12 +357,20 @@ ul {
   background-color: #386238;
 }
 
+.bg-sky-blue {
+  background-color: #DDEDFF;
+}
+
 .bg-light-blue {
   background-color: #9FC0E5;
 }
 
 .bg-dark-blue {
   background-color: #305682;
+}
+
+.bg-light-yellow {
+  background-color: #FFEFCE;
 }
 
 .bg-yellow {
@@ -238,11 +381,23 @@ ul {
   background-color: #C67A00;
 }
 
+.bg-yellow-gradient {
+  background-image: linear-gradient(#FFFDFA, #FFF7E4, #FFFDFA);
+}
+
+.bg-green-gradient {
+  background-image: linear-gradient(#FFFDFA, #EEFFDA, #FFFDFA);
+}
+
+.bg-blue-gradient {
+  background-image: linear-gradient(#FFFDFA, #E1EFFF, #FFFDFA);
+}
+
 /* border styling */
 .border-yellow-gradient {
   border: solid transparent;
   border-width: 0.2rem;
-  background: linear-gradient(#FFFFDD, #FFFFDD) padding-box, linear-gradient(to right, #B68969, #F8B61C) border-box;
+  background: linear-gradient(#FFFFDD, #f6f0b1) padding-box, linear-gradient(to right, #B68969, #F8B61C) border-box;
 }
 
 .border-green-gradient {
@@ -266,6 +421,16 @@ ul {
 }
 
 /* padding */
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-3 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -279,8 +444,12 @@ ul {
   padding-bottom: 4rem;
 }
 
+.p-08{
+  padding: 0.8rem;
+}
+
 .p-1 {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .p-2 {
@@ -307,6 +476,12 @@ ul {
 }
 .mt-4 {
   margin-top: 4rem;
+}
+.mt-8 {
+  margin-top: 8rem;
+}
+.mr-1 {
+  margin-right: 1rem;
 }
 .mr-3 {
   margin-right: 3rem;
