@@ -1,6 +1,7 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import EmployeeCard from '../components/EmployeeCard';
+import FooterCard from '/src/components/FooterCard';
 
 function About() {
     return (
@@ -67,7 +68,7 @@ function About() {
                     <h1>Meet our team of educators</h1>
                     <div className='mt-3'>
                         <h2>Directors</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center lg-nav-flex-start'>
+                        <div className='flex wrap gap-4 mt-2 justify-center'>
                             <EmployeeCard name="Eddie Lu" position="Director" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Ying Chen" position="Manager" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Julian Lu" position="Manager" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
@@ -75,12 +76,12 @@ function About() {
                     </div>
                     <div className='mt-3'>
                         <h2>Teachers</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center lg-nav-flex-start'>
+                        <div className='flex wrap gap-4 mt-2 justify-center'>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                         </div>
-                        <div className='flex wrap gap-4 mt-2 justify-center lg-nav-flex-start'>
+                        <div className='flex wrap gap-4 mt-2 justify-center'>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
@@ -88,7 +89,7 @@ function About() {
                     </div>
                     <div className='mt-3'>
                         <h2>Teaching Assistants</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center lg-nav-flex-start'>
+                        <div className='flex wrap gap-4 mt-2 justify-center'>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
                             <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
@@ -98,6 +99,11 @@ function About() {
             </div>
 
         </div>
+        <FooterCard 
+            title="Want to join our team?"
+            description="We'd love to have you!"
+            buttonText="Apply Now"
+        />
         <Footer />
         </>
     )

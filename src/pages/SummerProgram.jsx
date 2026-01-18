@@ -4,6 +4,7 @@ import HeroCard from '../components/HeroCard';
 import Tag from '../components/Tag';
 import Polaroid from '../components/Polaroid';
 import CustomerTestimonial from '../components/CustomerTestimonial';
+import FooterCard from '/src/components/FooterCard'
 
 function SummerProgram() {
     return (
@@ -89,6 +90,10 @@ function SummerProgram() {
                 </div>
             </div>
         </div>
+        <FooterCard 
+            title="Questions?"
+            description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+        />
         <Footer />
         </>
     )

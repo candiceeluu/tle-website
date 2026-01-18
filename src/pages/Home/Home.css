@@ -20,35 +20,6 @@ body {
     position: relative;
   }
   
-  /* hero 1 */
-  
-  .hero-1 {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .hero-bg img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .hero-content-1 {
-    position: absolute;
-    inset: 0;
-    justify-content: flex-end;
-    gap:1rem;
-    padding: 2rem;
-  }
-  
-  .hero-btn-1 {
-    border: solid;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    margin-top: 1rem;
-  }
-  
   /* hero 2 */
   
   .hero-2 {
@@ -148,24 +119,6 @@ body {
     gap: 2rem;
   }
   
-  .reviews-section {
-    background: #649EE0;
-    background: linear-gradient(-66deg, rgba(100, 158, 224, 1) 0%, rgba(169, 199, 168, 1) 100%);
-    border-radius: 1rem;
-    padding: 1.7rem;
-    gap: 1rem;
-    box-sizing: border-box;
-    width: 100%;
-  }
-  
-  .review-box {
-    background: white;
-    border-radius: 1rem;
-    text-align: left;
-    height: 310px;
-    padding: 2rem;
-    box-sizing: border-box;
-  }
   
   .quote-icon {
     width: 2.5rem;
@@ -289,7 +242,7 @@ body {
   
     .hero-img-2 {
       display: block;
-      width: 500px;
+      width: 400px;
       height: auto;
       border-radius: 1rem;
     }

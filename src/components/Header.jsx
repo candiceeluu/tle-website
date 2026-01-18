@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom'
 function Header() {
 
     return (
-        <div className="sticky-header w-full" >
+        <div style={{borderBottom:"1px solid black", backgroundColor:"#FFFDFA"}} className="sticky-header w-full" >
             <header className= "bg-white header-h">
                 <nav className="px py h-full">
-                    {/* Mobile Nav */}
                     <div className="mobile-only align-center space-between h-full w-full border-box">
                         <img src="images/hamburger.svg" />
                         <Link to="/">
@@ -16,7 +15,6 @@ function Header() {
                         <button className="button bg-green">Join</button>
                     </div>
 
-                    {/* Desktop Nav */}
                     <div className="desktop-only align-center space-between h-full max-width mx-auto">
                         <Link to="/">
                             <img className="header-logo" src="images/tle-logo.jpeg" />

@@ -2,6 +2,7 @@ import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import './Programs.css'
 import { Link } from 'react-router-dom';
+import FooterCard from '../../components/footerCard';
 
 function Programs() {
     return (
@@ -69,6 +70,11 @@ function Programs() {
                 </div>
             </div>
         </div>
+        <FooterCard
+            title="Questions?"
+            description="We’d love to see you soon!"
+            buttonText='Sign Up'
+        />
         <Footer />
         </>
     )

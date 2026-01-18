@@ -3,13 +3,13 @@ import Footer from '/src/components/Footer';
 import './AfterSchoolPrograms.css'
 import { Link, useNavigate } from 'react-router-dom'
 import HeroCard from '../../components/HeroCard';
+import FooterCard from '../../components/footerCard';
 
 function AfterSchoolPrograms() {
     const navigate = useNavigate();
     return (
         <>
         <Header />
-
         <HeroCard 
             title="After-School Programs"
             description="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis."
@@ -23,8 +23,8 @@ function AfterSchoolPrograms() {
                 <Link to="/elementary-program">
                     <div aria-label="elementary-program-btn" className="flex-column align-center">
                         <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
-                        <div className="flex-column align-center">
-                            <h5>Elementary Program</h5>
+                        <div className="flex-column align-center mt-1">
+                            <h5 className='semibold-text'>Elementary Program</h5>
                             <p>K-5th Grade</p>
                         </div>
                     </div>
@@ -33,8 +33,8 @@ function AfterSchoolPrograms() {
                 <Link to="/middle-school-program">
                     <div aria-label="middle-school-btn" className="flex-column align-center">
                         <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/middle-school-program-btn.png" />
-                        <div className="flex-column align-center">
-                            <h5>Middle School Program</h5>
+                        <div className="flex-column align-center mt-1">
+                            <h5 className='semibold-text'>Middle School Program</h5>
                             <p>6th-8th Grade</p>
                         </div>
                     </div>
@@ -43,8 +43,8 @@ function AfterSchoolPrograms() {
                 <Link to="/high-school-program">
                     <div aria-label="high-school-program-btn" className="flex-column align-center">
                         <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/high-school-program-btn.png" />
-                        <div className="flex-column align-center">
-                            <h5>High School Program</h5>
+                        <div className="flex-column align-center mt-1">
+                            <h5 className='semibold-text'>High School Program</h5>
                             <p>9th-12th Grade</p>
                         </div>
                     </div>
@@ -156,6 +156,10 @@ function AfterSchoolPrograms() {
                 </div>
             </div>
         </div>
+        <FooterCard 
+            title="Questions?"
+            description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+        />
         <Footer />
         </>
     )

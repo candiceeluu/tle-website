@@ -1,5 +1,6 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
+import FooterCard from '../../components/footerCard';
 
 function ElementaryProgram() {
     return (
@@ -92,6 +93,10 @@ function ElementaryProgram() {
                 </div>
             </div>
         </div>
+        <FooterCard 
+            title="Questions?"
+            description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+        />
         <Footer />
         </>
     )
