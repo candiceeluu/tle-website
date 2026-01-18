@@ -3,7 +3,7 @@ import Footer from '/src/components/Footer';
 import './AfterSchoolPrograms.css'
 import { Link, useNavigate } from 'react-router-dom'
 import HeroCard from '../../components/HeroCard';
-import FooterCard from '../../components/footerCard';
+import FooterCard from '../../components/FooterCard';
 
 function AfterSchoolPrograms() {
     const navigate = useNavigate();

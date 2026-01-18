@@ -1,6 +1,6 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
-import FooterCard from '../../components/footerCard';
+import FooterCard from '../../components/FooterCard';
 
 function MiddleSchoolProgram() {
     return (
