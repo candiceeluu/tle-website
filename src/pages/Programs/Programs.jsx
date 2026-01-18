@@ -2,7 +2,7 @@ import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import './Programs.css'
 import { Link } from 'react-router-dom';
-import FooterCard from '/src/components/footerCard';
+import FooterCard from '/src/components/FooterCard';
 
 function Programs() {
     return (
