@@ -349,6 +349,11 @@ ul {
   color: #E08283;
   background-color: transparent;
 }
+
+/* button animation */
+.pointer {
+  cursor: pointer;
+}
 /* icons */
 .icon {
   width: 3rem;
