@@ -12,9 +12,9 @@ function SummerProgram() {
         <Header />
         <HeroCard
             title="Summer Program"
-            description="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis."
+            description="Designed to prepare students for the next academic year, our summer program combines instructional preview, weekly assessments, and enrichment activities. Weekly field trips add a fun, hands-on element to learning throughout the summer."
             buttonText="Sign Up"
-            onButtonClick= ""
+            buttonLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
             backgroundClass='bg-summer-program'
         />
 
@@ -27,6 +27,7 @@ function SummerProgram() {
 
         <div className='bg-sky-blue mt-4'>
             <div className='flex-column max-width mx-auto p-2'>
+                <h2 className='mt-2'>Our Summer Programs</h2>
                 <div aria-label="summer-programs-boxes" className='flex wrap justify-center gap-4 mt-2'>
                     <div aria-label="summer-program-grade-school-box" className='flex-column bg-white border-radius-2 p-2'>
                         <div className='flex space-between align-center'>
@@ -40,8 +41,12 @@ function SummerProgram() {
                             <li>Weekly fun field trips!</li>
                         </ul>
                         <div className='flex space-between mt-2'>
-                            <button className='button black-trans-btn'>See Schedule</button>
-                            <button className='button'>Register</button>
+                            <a href="/documents/2025-summer-grade-school.pdf" target="_blank">
+                                <button className='button black-trans-btn'>See Schedule</button>
+                            </a>
+                            <a href="" target="_blank">
+                                <button className='button'>Register</button>
+                            </a>
                         </div>
                     </div>
                     <div aria-label="summer-program-grade-school-box" className='flex-column bg-white border-radius-2 p-2'>
@@ -56,9 +61,21 @@ function SummerProgram() {
                             <li>Weekly fun field trips!</li>
                         </ul>
                         <div className='flex space-between mt-2'>
+                        <a href="/documents/2025-summer-high-school.pdf" target="_blank">
                             <button className='button black-trans-btn'>See Schedule</button>
+                        </a>
                             <button className='button'>Register</button>
                         </div>
+                    </div>
+                    <div aria-label="summer-program-grade-school-box" className='flex-column bg-dark-blue-gradient white-text w-19p border-radius-2 p-2'>
+                        <h3>Want Lunch?</h3>
+                        <p className='mt-1'>We offer lunch for our summer program students. Lunch must be pre-ordered and prepaid in cash.</p>
+                        <p className='mt-3'>View the lunch menu below:</p>
+                        <a className='mt-1' href="/documents/2025-summer-lunch.pdf" target="_blank">
+                            <button className='button bg-light-blue-gradient blue-text'>View Lunch Menu</button>
+                        </a>
+                        <p className='mt-2 semibold-text'>Questions?</p>
+                        <p className=''>Call us at (909)-444-1871 or send us an email.</p>
                     </div>
                 </div>
                 <div aria-label="summer-program-archive" className='my-4'>

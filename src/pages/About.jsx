@@ -20,7 +20,11 @@ function About() {
         <div className='bg-light-blue w-full mt-4'>
             <div className='max-width mx-auto p-3'>
                 <h2>Mission Statement</h2>
-                <p className='mt-1'>Our mission is to guide students through every stage of their education with care, structure, and personalized academic support.</p>
+                <p className='mt-1'>Our mission is to guide students through every stage of their education with care, structure, and personalized academic support.
+                                    We believe that students should spend their after-school hours with their families and our structured curriculum ensures that students
+                                    can complete their work and gain further academic enrichment all before they go home. TLE is built on community and we truly treat
+                                    each of our students with equal care and kindness while pushing them to exceed academically. We believe in education — made simple for
+                                    both you and your child.</p>
             </div>
         </div>
 

@@ -284,7 +284,9 @@ ul {
 .w-fit-content {
   width: fit-content;
 }
-
+.w-19p {
+  width: 19%;
+}
 .w-20p {
   width: 25%;
 }
@@ -292,7 +294,9 @@ ul {
 .h-full {
   height: 100%;
 }
-
+.h-fit-content {
+  height: fit-content;
+}
 .h-auto {
   height: auto;
 }

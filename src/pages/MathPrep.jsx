@@ -10,7 +10,7 @@ function MathPrep() {
         <Header />
         <HeroCard 
             title="Math Prep"
-            description="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis."
+            description="Our math prep classes provide structured, small-group learning that helps students deepen understanding and succeed in advanced math pathways. With targeted practice and guidance, students are well prepared for placement exams."
             buttonText="Sign Up"
             onButtonClick= ""
             backgroundClass='bg-math-prep'

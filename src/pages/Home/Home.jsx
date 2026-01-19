@@ -56,7 +56,7 @@ const navigate = useNavigate();
   <div className="hero-3">
     <div className="hero-content-3 flex-column center-text">
       <img className="icon" src="/images/location.svg" />
-      <h2>Located near 15+ schools</h2>
+      <h2>Located near <span className='green-gradient-text'>15+ schools</span></h2>
       <p>We are conveniently located right across the street from Diamond Bar High School and can coordinate pickups for your child.</p>
       <div className="school-row">
         <img className="school-logo" src="/images/wvusd.png" />
@@ -188,6 +188,7 @@ const navigate = useNavigate();
     title="Sign up for a class or program today."
     description="We’d love to see you soon!"
     buttonText="Sign Up"
+    buttonLink="/programs"
  />
  <Footer />
  </>
