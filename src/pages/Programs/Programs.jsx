@@ -58,15 +58,17 @@ function Programs() {
                     </div>
                 </Link>
 
-                <div aria-label="private-tutoring-link" className="bg-private-tutoring bg-img bg-shading border-radius-2 p-2 mt-2">
-                    <div className="right-text">
-                        <h2>&gt; LEARN MORE</h2>
+                <Link to="/private-tutoring">
+                    <div aria-label="private-tutoring-link" className="bg-private-tutoring bg-img bg-shading border-radius-2 p-2 mt-2">
+                        <div className="right-text">
+                            <h2>&gt; LEARN MORE</h2>
+                        </div>
+                        <div className="mt-4">
+                            <p>We provide personalized, one-on-one tutoring in multiple subjects to support academic growth and mastery. Each session is customized to help students progress at their own pace.</p>
+                            <h1 className="mt-1">Private Tutoring</h1>
+                        </div>
                     </div>
-                    <div className="mt-4">
-                        <p>We provide personalized, one-on-one tutoring in multiple subjects to support academic growth and mastery. Each session is customized to help students progress at their own pace.</p>
-                        <h1 className="mt-1">Private Tutoring</h1>
-                    </div>
-                </div>
+                </Link>
             </div>
         </div>
         <FooterCard

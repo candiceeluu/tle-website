@@ -26,7 +26,9 @@ function Footer() {
                     </Link>
                     <a>Available Classes</a>
                     <a>Coming Soon</a>
-                    <a className="footer-text-top-margin semibold-text">Private Tutoring</a>
+                    <Link to="/private-tutoring">
+                        <a className="footer-text-top-margin semibold-text">Private Tutoring</a>
+                    </Link>
                 </div>
                 <div className="footer-links-2 footer-text">
                     <Link to="/after-school-program">
