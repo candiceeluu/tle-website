@@ -35,7 +35,7 @@ function Programs() {
                 </Link>
 
                 <Link to="/summer-program">
-                    <div aria-label="summer-program-link" className="bg-summer-program bg-img bg-shading border-radius-2 p-2 mt-2">
+                    <div aria-label="summer-program-link" className="bg-summer-program bg-img bg-shading border-radius-2 p-2 mt-3">
                         <div className="right-text">
                             <h2>&gt; LEARN MORE</h2>
                         </div>
@@ -47,7 +47,7 @@ function Programs() {
                 </Link>
                 
                 <Link to="/math-prep">
-                    <div aria-label="math-prep-link" className="bg-math-prep bg-img bg-shading border-radius-2 p-2 mt-2">
+                    <div aria-label="math-prep-link" className="bg-math-prep bg-img bg-shading border-radius-2 p-2 mt-3">
                         <div className="right-text">
                             <h2>&gt; LEARN MORE</h2>
                         </div>
@@ -59,7 +59,7 @@ function Programs() {
                 </Link>
 
                 <Link to="/private-tutoring">
-                    <div aria-label="private-tutoring-link" className="bg-private-tutoring bg-img bg-shading border-radius-2 p-2 mt-2">
+                    <div aria-label="private-tutoring-link" className="bg-private-tutoring bg-img bg-shading border-radius-2 p-2 mt-3">
                         <div className="right-text">
                             <h2>&gt; LEARN MORE</h2>
                         </div>
