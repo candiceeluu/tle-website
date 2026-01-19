@@ -1,7 +1,7 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
-import EmployeeCard from '../components/EmployeeCard';
 import FooterCard from '/src/components/FooterCard';
+import EmployeeSection from '../components/archive/EmployeeSection';
 
 function About() {
     return (
@@ -10,7 +10,7 @@ function About() {
         <div className='max-width mx-auto px-3 flex-column align-center justify-center gap-4 mt-3 lg-nav-flex-row'>
             <div className=''>
                 <h1>Academic success, nurtured with care.</h1>
-                <p className='mt-1'>Total Learning Education has always strived for education blah blah Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti reiciendis.</p>
+                <p className='mt-1'>Total Learning Education has always strived to provide our students with the highest level of academic support and guidance throughout their academic journeys.</p>
             </div>
             <div className='w-fit-content'>
                 <img className="w-full h-full cover border-radius-2" src="/images/About/about-us-hero-img.jpg" />
@@ -20,18 +20,18 @@ function About() {
         <div className='bg-light-blue w-full mt-4'>
             <div className='max-width mx-auto p-3'>
                 <h2>Mission Statement</h2>
-                <p className='mt-1'>Total Learning Education has always strived for education blah blah Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis. Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis. Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis.</p>
+                <p className='mt-1'>Our mission is to guide students through every stage of their education with care, structure, and personalized academic support.</p>
             </div>
         </div>
 
         <div className='mt-4 lg-nav-mt-8'>
             <div className='max-width mx-auto flex-column align-center center-text px-3 border-box'>
                 <h1 >Founded in 2008.</h1>
-                <p className='mt-3 px-3'>At Total Learning Education, our mission is to lorem ipsum dolor sit amet. Ut laudant Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum. At Total Learning Education, our mission is to lorem ipsum dolor sit amet. Ut laudant Lorem ipsum dolor sit amet.</p>
+                <p className='mt-3 px-3'>For 18 years, TLE has supported thousands of students in their academic journeys, providing a community of caring educators, peers, and friends. Families trust us to provide consistent support that helps students thrive year after year.</p>
                 <div className='border-blue border-radius-2 px-3 flex space-between border-box w-full mt-3'
                     style={{padding: "1rem 3rem"}}>
                     <div className=''>
-                        <h1>17</h1>
+                        <h1>18</h1>
                         <p>years</p>
                     </div>
                     <div className=''>
@@ -62,42 +62,6 @@ function About() {
                     </div>
                 </div>
             </div>
-
-            <div className='mt-4 lg-nav-mt-8'>
-                <div className='max-width mx-auto px-3'>
-                    <h1>Meet our team of educators</h1>
-                    <div className='mt-3'>
-                        <h2>Directors</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center'>
-                            <EmployeeCard name="Eddie Lu" position="Director" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Ying Chen" position="Manager" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Julian Lu" position="Manager" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                        </div>
-                    </div>
-                    <div className='mt-3'>
-                        <h2>Teachers</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center'>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                        </div>
-                        <div className='flex wrap gap-4 mt-2 justify-center'>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                        </div>
-                    </div>
-                    <div className='mt-3'>
-                        <h2>Teaching Assistants</h2>
-                        <div className='flex wrap gap-4 mt-2 justify-center'>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                            <EmployeeCard name="Teacher Name" position="Teacher" employeeImageUrl="/images/About/about-us-hero-img.jpg"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
         <FooterCard 
             title="Want to join our team?"

@@ -25,7 +25,7 @@ const navigate = useNavigate();
   </picture>
   <div className="p-3 absolute inset-0 flex-column flex-end white-text lg-nav-black-text lg-nav-flex-start lg-nav-mt-4 lg-nav-w-40p">
     <h1>Where knowledge <span className="lg-nav-green-gradient-text">sprouts!</span></h1>
-    <h5 className='mt-1'>At Total Learning Education, our mission is to lorem ipsum dolor sit amet. Ut laudant Lorem psum dolor sit amet.</h5>
+    <h5 className='mt-1'>Nurturing students with personalized learning and support—so schoolwork is done and families can enjoy time together.</h5>
     <button onClick={() => navigate("/programs")} className="button white-btn mt-2 lg-nav-black-btn lg-nav-bg-white">Find a Program</button>
   </div>
  </div>
@@ -36,7 +36,7 @@ const navigate = useNavigate();
     <div className="hero-text-2 flex-column white-text">
       <p style={{ color: '#9EDE9D' }}>LEARNING PROGRAMS</p>
       <h2>After-School and Summer Programs</h2>
-      <p>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti minus cum laborum voluptate et recusandae pariatur ut dolore reiciendis. </p>
+      <p>Our after-school and summer programs are designed to support students at every stage of their academic journey. With focused instruction, guided homework time, and enrichment opportunities, students continue to grow in confidence and skills year-round.</p>
       <button onClick={() => navigate("/programs")} className="button white-btn p hero-btn-2">Find a Program</button>
     </div>
     <div className="hero-buttons-section-2 flex-column">
@@ -75,7 +75,7 @@ const navigate = useNavigate();
           <img className="icon services-box-icon"src="/icons/book-blue-bg.svg" />
           <div className="services-box-text flex-column">
             <h3>Homework Help</h3>
-            <p className="services-box-description">We offer support for our students beyond English. Our staff also speaks Chinese, Korean, and Spanish.</p>
+            <p className="services-box-description">We offer homework support in a focused environment to ensure assignments are completed accurately and on time.</p>
           </div>
         </div>
         <div className="services-box flex-column">
@@ -89,7 +89,7 @@ const navigate = useNavigate();
           <img className="icon services-box-icon"src="/icons/diamond-blue-bg.svg" />
           <div className="services-box-text flex-column">
             <h3>Academic Enrichment</h3>
-            <p className="services-box-description">We offer support for our students beyond English. Our staff also speaks Chinese, Korean, and Spanish.</p>
+            <p className="services-box-description">Supplemental material strengthens core skills and prepares students for future coursework.</p>
           </div>
         </div>
       </div>
@@ -130,7 +130,8 @@ const navigate = useNavigate();
  <div className="mt-4 lg-nav-mt-8">
   <div className="flex align-center p-2 max-width mx-auto">
     <div className="flex-column">
-      <h1 className="light-blue-text">Lorem ipsum dolor sit amet. <span className="green-text">Ut laudantium aliquid eos corporis eaque ut corrupti.</span></h1>
+      <h1 className="light-blue-text">Grow with confidence.
+          <span className="green-text"> We support our students with guidance and care.</span></h1>
       <div className="flex gap-2 mt-3">
         <div className="hero-6-stat">
           <h1>100+</h1>
@@ -145,7 +146,7 @@ const navigate = useNavigate();
           <h4>schools</h4>
         </div>
         <div className="hero-6-stat">
-          <h1 className="light-blue-text">30</h1>
+          <h1 className="light-blue-text">18</h1>
           <h4>years</h4>
         </div>
       </div>
