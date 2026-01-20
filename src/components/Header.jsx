@@ -61,7 +61,9 @@ function Header() {
                                 <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
                             </li>
                         </ul>
-                        <button className="button bg-green">Join</button>
+                        {/* <NavLink to="/programs">
+                            <button className="button bg-green">Join</button>
+                        </NavLink> */}
                     </div>
                 
                 </nav>
