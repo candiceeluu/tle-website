@@ -186,6 +186,7 @@ const navigate = useNavigate();
  <FooterCard 
     title="Sign up for a class or program today."
     description="We’d love to see you soon!"
+    hasButton={true}
     buttonText="Sign Up"
     buttonLink="/programs"
  />
