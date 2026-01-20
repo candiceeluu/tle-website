@@ -92,6 +92,10 @@
     background-color: #f5f5f5;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 
 .sticky-header {
     position: sticky;

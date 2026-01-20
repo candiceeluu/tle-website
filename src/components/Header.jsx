@@ -1,9 +1,8 @@
 import './Header.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
 function Header() {
-
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
@@ -19,41 +18,45 @@ function Header() {
                             onClick={() => setMenuOpen(true)}
 
                         />
-                        <Link to="/">
+                        <NavLink to="/">
                             <img className="header-logo" src="images/tle-logo.jpeg" />
-                        </Link>
+                        </NavLink>
                         <button className="button bg-green">Join</button>
                     </div>
 
                     <div className="desktop-only align-center space-between h-full max-width mx-auto">
-                        <Link to="/">
+                        <NavLink to="/">
                             <img className="header-logo" src="images/tle-logo.jpeg" />
-                        </Link>
+                        </NavLink>
                         <ul className="flex align-center">
-                            <li className="mr-1"><Link to="/about">About Us</Link></li>
+                            <li className="mr-1">
+                                <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About Us</NavLink>
+                            </li>
                             <li className="mr-1 dropdown">
                                 <span className="dropdown-trigger">
-                                    <Link to="/math-prep">Math Prep</Link> <span className="caret">▾</span>
+                                    <NavLink to="/math-prep" className={({ isActive }) => isActive ? 'active' : ''}>Math Prep</NavLink> <span className="caret">▾</span>
                                 </span>
 
                                 <div className="dropdown-menu bg-dark-blue">
-                                    <Link to="/after-school-programs">5th-8th Grade</Link>
-                                    <Link to="/summer-program">AP Math Prep</Link>
+                                    <NavLink to="/math-prep?filter=prep">Prep Classes</NavLink>
+                                    <NavLink to="/math-prep?filter=advanced">AP Classes</NavLink>
                                 </div>
                             </li>
                             <li className="mr-1 dropdown">
                                 <span className="dropdown-trigger">
-                                    <Link to="/programs">Programs</Link> <span className="caret">▾</span>
+                                    <NavLink to="/programs" className={({ isActive }) => isActive ? 'active' : ''}>Programs</NavLink> <span className="caret">▾</span>
                                 </span>
 
                                 <div className="dropdown-menu bg-dark-blue">
-                                    <Link to="/after-school-programs">After-School Programs</Link>
-                                    <Link to="/summer-program">Summer Program</Link>
-                                    <Link to="/math-prep">Math Prep</Link>
-                                    <Link to="/private-tutoring">Private Tutoring</Link>
+                                    <NavLink to="/after-school-programs">After-School Programs</NavLink>
+                                    <NavLink to="/summer-program">Summer Program</NavLink>
+                                    <NavLink to="/math-prep">Math Prep</NavLink>
+                                    <NavLink to="/private-tutoring">Private Tutoring</NavLink>
                                 </div>
                             </li>
-                            <li className="mr-1"><Link to="/careers">Careers</Link></li>
+                            <li className="mr-1">
+                                <NavLink to="/careers" className={({ isActive }) => isActive ? 'active' : ''}>Careers</NavLink>
+                            </li>
                             <li className="mr-1">Contact</li>
                         </ul>
                         <button className="button bg-green">Join</button>
@@ -65,10 +68,10 @@ function Header() {
         <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
             <button className="close-btn black-text" onClick={() => setMenuOpen(false)}>✕</button>
             <ul>
-                <li onClick={() => setMenuOpen(false)}><Link to="/about">About Us</Link></li>
-                <li onClick={() => setMenuOpen(false)}><Link to="/math-prep">Math Prep</Link></li>
-                <li onClick={() => setMenuOpen(false)}><Link to="/programs">Programs</Link></li>
-                <li onClick={() => setMenuOpen(false)}><Link to="/careers">Careers</Link></li>
+                <li onClick={() => setMenuOpen(false)}><NavLink to="/about">About Us</NavLink></li>
+                <li onClick={() => setMenuOpen(false)}><NavLink to="/math-prep">Math Prep</NavLink></li>
+                <li onClick={() => setMenuOpen(false)}><NavLink to="/programs">Programs</NavLink></li>
+                <li onClick={() => setMenuOpen(false)}><NavLink to="/careers">Careers</NavLink></li>
                 <li onClick={() => setMenuOpen(false)}>Contact</li>
             </ul>
         </div>

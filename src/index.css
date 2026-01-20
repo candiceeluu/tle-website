@@ -1,3 +1,8 @@
+/* hidden */
+.hidden {
+  display: none;
+}
+
 /* mobile-only */
 .mobile-only {
   display: flex;

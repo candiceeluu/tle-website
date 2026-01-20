@@ -4,6 +4,8 @@ function MathPrepCard({
     grade,
     gradeColorClass,
     dates,
+    instructor,
+    hasRequirements=true,
     requirements,
     bulletPointOne,
     bulletPointTwo,
@@ -30,11 +32,12 @@ function MathPrepCard({
                 <h3>{title}</h3>
                 <Tag text={grade} backgroundClass={gradeColorClass}/>
             </div>
-            <div className="flex-column align-center gap-4 mt-2 lg-nav-flex-row-reverse ">
+            <div className="flex-column align-center gap-4 mt-2 lg-nav-flex-row-reverse">
                 <div className="w-full">
-                    <p><span className="bold-text">Dates: </span>{dates}</p>
-                    <p className="mt-1"><span className="bold-text">Requirements: </span>{requirements}</p>
-                    <ul className="check-bullets">
+                    <p><span className="semibold-text">Dates: </span>{dates}</p>
+                    <p className="mt-1"><span className="semibold-text">Instructor: </span>{instructor}</p>
+                    <p className={`mt-1 ${!hasRequirements ? 'hidden' : 'block'}`}><span className="semibold-text">Requirements: </span>{requirements}</p>
+                    <ul className="check-bullets mt-2">
                         <li>{bulletPointOne}</li>
                         <li>{bulletPointTwo}</li>
                         <li>{bulletPointThree}</li>
@@ -44,7 +47,7 @@ function MathPrepCard({
                     </div>
                 </div>
                 <div style={{width: "40%"}}>
-                    <img src={image} className="w-full h-full cover"/>
+                    <img src={image} className="w-full h-full cover border-radius-2"/>
                 </div>
             </div>
         </div>
