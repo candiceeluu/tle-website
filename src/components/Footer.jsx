@@ -1,5 +1,5 @@
 import './Footer.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -9,8 +9,9 @@ function Footer() {
                 <div className="footer-logo-icons">
                     <img src="/images/tle-logo.jpeg" id="footer-logo" />
                     <div className="footer-icons">
-                        <img src="/images/instagram-blue.svg" />
-                        <img src="/images/facebook-blue.svg" />
+                        <a href="https://www.instagram.com/totallearning.education/" target="_blank">
+                            <img src="/images/instagram-blue.svg" />
+                        </a>
                     </div>
                 </div>
                 <div className="footer-text blue-text">
@@ -24,8 +25,8 @@ function Footer() {
                     <Link to="/math-prep">
                         <a className="semibold-text">Math Prep</a>
                     </Link>
-                    <a>Available Classes</a>
-                    <a>Coming Soon</a>
+                    <NavLink to="/math-prep?filter=prep">Prep Classes</NavLink>
+                    <NavLink to="/math-prep?filter=advanced">AP Classes</NavLink>
                     <Link to="/private-tutoring">
                         <a className="footer-text-top-margin semibold-text">Private Tutoring</a>
                     </Link>

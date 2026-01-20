@@ -124,9 +124,9 @@ const mathPrepPrograms = [
         dates: "Weekly (Fall 2026)",
         instructor: "Tam Ngyuen",
         hasRequirements: false,
-        bulletPointOne: "Prepare for AP Pre-Calculus",
-        bulletPointTwo: "TBD",
-        bulletPointThree: "TBD",
+        bulletPointOne: "Prepare for school tests and the AP Exam",
+        bulletPointTwo: "Gain guidance on homework assignments",
+        bulletPointThree: "Preview weekly lessons ahead of school schedule",
         image: "/images/MathPrep/ap-calc-bc.jpg",
         isComingSoon: false,
         tag: "advanced"
@@ -163,7 +163,7 @@ function MathPrep() {
             onButtonClick= ""
             backgroundClass='bg-math-prep'
         />
-       <div className="flex wrap gap-2 space-between mt-2 max-width mx-auto p-2">
+       <div className="flex wrap gap-2 space-between mt-1 max-width mx-auto p-2">
             <div>
                 <h3>{TITLES[activeFilter]}</h3>
             </div>
@@ -190,7 +190,8 @@ function MathPrep() {
                 </button>
             </div>
         </div>
-        <div className="flex-column gap-4 align-center max-width mx-auto border-box px-3 mt-1">
+        <hr className='max-width mx-auto'></hr>
+        <div className="flex-column gap-4 align-center max-width mx-auto border-box px-3 mt-3">
             {currentFilteredPrograms.map((program, index) => (
                 <MathPrepCard key={index} {...program} />
             ))}
@@ -203,6 +204,7 @@ function MathPrep() {
         <FooterCard 
             title="Questions?"
             description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+            hasButton={false}
         />
         <Footer />
         </>

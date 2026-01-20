@@ -153,19 +153,27 @@ const navigate = useNavigate();
         <h5 className="light-text mt-1">2157 S Brea Canyon Rd, Diamond Bar, CA 91765</h5>
       </div>
       <div className="mt-2 flex gap-1 flex-start w-full">
-        <img src="/icons/phone.svg" />
+        <a href="tel:+19094441871">
+          <img src="/icons/phone.svg" />
+        </a>
         <h5 className="light-text">(909)-444-1871</h5>
       </div>
       <div className="mt-1 flex gap-1 flex-start w-full">
-        <img src="/icons/text-bubble.svg" />
+        <a href="sms:+19097609562">
+          <img src="/icons/text-bubble.svg" />
+        </a>
         <h5 className="light-text">(909)-760-9562</h5>
       </div>
       <div className="mt-1 flex gap-1 flex-start w-full">
-        <img src="/icons/email.svg" />
+        <a href="mailto:totallearningeducation@gmail.com">
+          <img src="/icons/email.svg" />
+        </a>
         <h5 className="light-text">totallearningeducation@gmail.com</h5>
       </div>
       <div className="mt-1 flex gap-1 flex-start w-full">
-        <img src="/icons/instagram-white.svg" />
+        <a href="https://www.instagram.com/totallearning.education/" target="_blank">
+          <img src="/icons/instagram-white.svg" />
+        </a>
         <h5 className="light-text">totallearning.education</h5>
       </div>
       <a href="https://maps.app.goo.gl/bg5jeFfq9MSNGwSH7" target="_blank">

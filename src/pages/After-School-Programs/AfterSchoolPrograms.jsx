@@ -151,6 +151,7 @@ function AfterSchoolPrograms() {
         <FooterCard 
             title="Questions?"
             description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+            hasButton={false}
         />
         <Footer />
         </>

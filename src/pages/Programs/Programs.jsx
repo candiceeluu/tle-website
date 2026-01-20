@@ -73,8 +73,8 @@ function Programs() {
         </div>
         <FooterCard
             title="Questions?"
-            description="We’d love to see you soon!"
-            buttonText='Sign Up'
+            description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
+            hasButton={false}
         />
         <Footer />
         </>

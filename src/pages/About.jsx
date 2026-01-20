@@ -70,7 +70,9 @@ function About() {
         <FooterCard 
             title="Want to join our team?"
             description="We'd love to have you!"
+            hasButton={true}
             buttonText="Apply Now"
+            buttonLink="/careers"
         />
         <Footer />
         </>
