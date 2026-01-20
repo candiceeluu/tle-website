@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function FooterCard({
     title,
     description,
@@ -11,7 +13,9 @@ function FooterCard({
         <div className="flex-column align-center justify-center center-text my-4 p-2">
             <h3>{title}</h3>
             <p className="mt-1">{description}</p>
-            <a href={buttonLink} className={`${hasButton ? "" : "hidden"} mt-2 button black-trans-btn`}>{buttonText}</a>
+            <Link to={buttonLink}>
+                <button className={`${hasButton ? "" : "hidden"} mt-2 button black-trans-btn`}>{buttonText}</button>
+            </Link>
         </div>
         </>
     )
