@@ -1,7 +1,7 @@
 import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import FooterCard from '/src/components/FooterCard';
-import EmployeeSection from '../components/archive/EmployeeSection';
+import Year from '../utils/Year';
 
 function About() {
     return (
@@ -31,11 +31,11 @@ function About() {
         <div className='mt-4 lg-nav-mt-8'>
             <div className='max-width mx-auto flex-column align-center center-text px-3 border-box'>
                 <h1 >Founded in 2008.</h1>
-                <p className='mt-3 px-3'>For 18 years, TLE has supported thousands of students in their academic journeys, providing a community of caring educators, peers, and friends. Families trust us to provide consistent support that helps students thrive year after year.</p>
+                <p className='mt-3 px-3'>For {Year()} years, TLE has supported thousands of students in their academic journeys, providing a community of caring educators, peers, and friends. Families trust us to provide consistent support that helps students thrive year after year.</p>
                 <div className='border-blue border-radius-2 px-3 flex space-between border-box w-full mt-3'
                     style={{padding: "1rem 3rem"}}>
                     <div className=''>
-                        <h1>18</h1>
+                        <h1>{Year()}</h1>
                         <p>years</p>
                     </div>
                     <div className=''>

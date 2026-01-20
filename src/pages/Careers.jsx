@@ -21,47 +21,39 @@ function Careers() {
                     <CareerCard 
                         position="1st-5th Grade Teacher"
                         description="Supervise, help, and check students’ homework/TLE work"
-                        caption="~10 students"
                     />
                     <CareerCard 
                         position="6th-8th Grade Teacher"
                         description="Supervise, help, and check students’ homework/TLE work"
-                        caption="~15 students"
                     />
                     <CareerCard 
                         position="High School Chemistry Tutor"
                         description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
                     />
                     <CareerCard 
                         position="High School Biology Tutor"
                         description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
                     />
                     <CareerCard 
                         position="High School Math Tutor"
                         description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
                     />
                     <CareerCard 
                         position="High School English Tutor"
                         description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
                     />
                     <CareerCard 
                         position="Homework Help TA"
                         description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
                     />
                     <CareerCard 
-                        position="Junior TA"
-                        description="High School AP level required. Can teach privates or small group."
-                        caption="~15 students"
+                        position="Summer Program Volunteer"
+                        description="Supervise and assist summer program students with academics."
                     />
                 </div>
             </div>
             <div className='my-4'>
-                <p className='center-text'>For inquiries, please email tle@gmail.com or call (909)-444-1871</p>
+                <p className='center-text'>For inquiries, please email totallearningeducation@gmail.com or call (909)-444-1871</p>
             </div>
         </div>
         <Footer />

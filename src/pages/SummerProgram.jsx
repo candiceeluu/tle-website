@@ -5,6 +5,7 @@ import Tag from '../components/Tag';
 import Polaroid from '../components/Polaroid';
 import CustomerTestimonial from '../components/CustomerTestimonial';
 import FooterCard from '/src/components/FooterCard'
+import SummerProgramBox from '../components/SummerProgramBox';
 
 function SummerProgram() {
     return (
@@ -28,45 +29,29 @@ function SummerProgram() {
         <div className='bg-sky-blue mt-4'>
             <div className='flex-column max-width mx-auto p-2'>
                 <h2 className='mt-2'>Our Summer Programs</h2>
-                <div aria-label="summer-programs-boxes" className='flex wrap justify-center gap-4 mt-2'>
-                    <div aria-label="summer-program-grade-school-box" className='flex-column bg-white border-radius-2 p-2'>
-                        <div className='flex space-between align-center'>
-                            <h3>Grade School</h3>
-                            <Tag text="1st-8th" backgroundClass="bg-dark-green"/>
-                        </div>
-                        <ul className='green-star-bullets'>
-                            <li className='mt-1'>Preview next year's material</li>
-                            <li>Weekly assessments & parent reports</li>
-                            <li>Choose different level classes</li>
-                            <li>Weekly fun field trips!</li>
-                        </ul>
-                        <div className='flex space-between mt-2'>
-                            <a href="/documents/2025-summer-grade-school.pdf" target="_blank">
-                                <button className='button black-trans-btn'>See Schedule</button>
-                            </a>
-                            <a href="" target="_blank">
-                                <button className='button'>Register</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div aria-label="summer-program-grade-school-box" className='flex-column bg-white border-radius-2 p-2'>
-                        <div className='flex space-between align-center'>
-                            <h3>High School</h3>
-                            <Tag text="9th-12th" backgroundClass="bg-dark-blue"/>
-                        </div>
-                        <ul className='blue-star-bullets'>
-                            <li className='mt-1'>Preview next year's material</li>
-                            <li>Weekly assessments & parent reports</li>
-                            <li>Choose different level classes</li>
-                            <li>Weekly fun field trips!</li>
-                        </ul>
-                        <div className='flex space-between mt-2'>
-                        <a href="/documents/2025-summer-high-school.pdf" target="_blank">
-                            <button className='button black-trans-btn'>See Schedule</button>
-                        </a>
-                            <button className='button'>Register</button>
-                        </div>
-                    </div>
+                <div aria-label="summer-programs-boxes" className='flex wrap space-between gap-4 mt-2'>
+                    <SummerProgramBox 
+                        title="Grade School"
+                        tagText="1st-8th"
+                        tagColor="bg-dark-green"
+                        bulletStyle="green-star-bullets"
+                        bulletOne="Preview next year's material"
+                        bulletTwo="Weekly assessments & parent reports"
+                        bulletThree="Choose different level classes"
+                        bulletFour="Weekly fun field trips!"
+                        registerLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
+                    />
+                    <SummerProgramBox 
+                        title="High School"
+                        tagText="9th-12th"
+                        tagColor="bg-dark-blue"
+                        bulletStyle="blue-star-bullets"
+                        bulletOne="Preview next year's math courses"
+                        bulletTwo="DBHS / WHS homework help and test prep"
+                        bulletThree="Aligned schedule with DBHS / WHS summer school schedule"
+                        bulletFour="Daily lunch options"
+                        registerLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
+                    />
                     <div aria-label="summer-program-grade-school-box" className='flex-column bg-dark-blue-gradient white-text w-19p border-radius-2 p-2'>
                         <h3>Want Lunch?</h3>
                         <p className='mt-1'>We offer lunch for our summer program students. Lunch must be pre-ordered and prepaid in cash.</p>
@@ -101,9 +86,9 @@ function SummerProgram() {
             <div className='max-width mx-auto px-3 flex-column align-center py-4'>
                 <h1 className='white-text'>Customer Testimonials</h1>
                 <div className='flex-row gap-1 mt-4'>
-                    <CustomerTestimonial text="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis" caption="- Parent Testimonial"/>
-                    <CustomerTestimonial text="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis" caption="- Parent Testimonial"/>
-                    <CustomerTestimonial text="Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis" caption="- Parent Testimonial"/>
+                    <CustomerTestimonial text="I seriously appreciate the time [employee] took to teach all the kids this summer. [Student] looked forward to all the classes everyday." caption="- Parent Testimonial"/>
+                    <CustomerTestimonial text="[Student] likes your program because your system ensures kids are on top of their work. I have taken [student] to many different after-school programs and your program is one of the best." caption="- Parent Testimonial"/>
+                    <CustomerTestimonial text="Thank you for your constant communication with us. You're great at what you do." caption="- Parent Testimonial"/>
                 </div>
             </div>
         </div>

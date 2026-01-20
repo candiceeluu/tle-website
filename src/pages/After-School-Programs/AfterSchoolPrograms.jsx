@@ -26,7 +26,7 @@ function AfterSchoolPrograms() {
                         <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
                         <div className="flex-column align-center mt-1">
                             <h5 className='semibold-text'>Elementary Program</h5>
-                            <p>K-5th Grade</p>
+                            <p>1st-5th Grade</p>
                         </div>
                     </div>
                 </Link>

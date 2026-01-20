@@ -12,7 +12,7 @@ function HighSchoolProgram() {
                 <div aria-label="elementary-program-hero-text" className="center-text px-3">
                     <h1>High School Program</h1>
                     <p className="mt-1">At TLE, we strive for your child’s academic achievement. Students are expected to complete their homework everyday.</p>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYc1nq7XW2KFaalebziXuPfm44Dqys0tnQ-W1BeEMDQewPkg/viewform?pli=1" target="_blank">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYdSrmk5b0YwjDp_tvVufmzbL3NyeCAbLOD4zYq9s7hxdEyQ/viewform" target="_blank">
                         <button className='button black-trans-btn mt-2'>Sign Up</button>
                     </a>
                 </div>
@@ -80,7 +80,7 @@ function HighSchoolProgram() {
                                     <p className=''>Development</p>
                                 </div>
                                 <h3 className="mt-3">Private Lessons</h3>
-                                <p className="mt-1">We additionally help our students excel through private tutoring and small group classes for math, including Algebra 2 Honors, Trig Math Analysis, and Calculus AB/BC.</p>
+                                <p className="mt-1">We additionally help our students excel through private tutoring and small group classes for math, including Geometry, Algebra 2, Algebra 2 Honors, AP Pre-Calculus, MACH5, Calculus AB/BC.</p>
                             </div>
                         </div>
                     </div>

@@ -3,6 +3,7 @@ import Header from '/src/components/Header';
 import Footer from '/src/components/Footer';
 import { useNavigate, Link } from 'react-router-dom'
 import FooterCard from '/src/components/FooterCard';
+import ReviewBox from '../../components/ReviewBox';
 
 function Home() {
 
@@ -25,7 +26,7 @@ const navigate = useNavigate();
   </picture>
   <div className="p-3 absolute inset-0 flex-column flex-end white-text lg-nav-black-text lg-nav-flex-start lg-nav-mt-4 lg-nav-w-40p">
     <h1>Where knowledge <span className="lg-nav-green-gradient-text">sprouts!</span></h1>
-    <h5 className='mt-1'>Nurturing students with personalized learning and support—so schoolwork is done and families can enjoy time together.</h5>
+    <h5 className='mt-1'>Building strong study habits, solid math and ELA foundations, and a reliable homework system—so schoolwork is done and families can enjoy time together.</h5>
     <button onClick={() => navigate("/programs")} className="button white-btn mt-2 lg-nav-black-btn lg-nav-bg-white">Find a Program</button>
   </div>
  </div>
@@ -60,7 +61,6 @@ const navigate = useNavigate();
       <p>We are conveniently located right across the street from Diamond Bar High School and can coordinate pickups for your child.</p>
       <div className="school-row">
         <img className="school-logo" src="/images/wvusd.png" />
-        <img className="school-logo" src="/images/cusd.png" />
         <img className="school-logo" src="/images/rush.png" />
         <img className="school-logo" src="/images/pusd.jpg" />
       </div>
@@ -89,7 +89,7 @@ const navigate = useNavigate();
           <img className="icon services-box-icon"src="/icons/diamond-blue-bg.svg" />
           <div className="services-box-text flex-column">
             <h3>Academic Enrichment</h3>
-            <p className="services-box-description">Supplemental material strengthens core skills and prepares students for future coursework.</p>
+            <p className="services-box-description">Supplemental material strengthens core math and ELA skills, prepares students for State Testing and next year coursework.</p>
           </div>
         </div>
       </div>
@@ -100,30 +100,21 @@ const navigate = useNavigate();
     <div className="max-width mx-auto p-2 flex-column center-text">
       <h2>Hear from our community</h2>
       <div className="mt-4 max-width bg-yellow-blue-gradient border-radius-2 flex-column gap-2 p-2 lg-nav-flex-row space-between">
-        <div className="bg-white border-radius-2 left-text p-2 border-box">
-          <div className="flex-column">
-            <img className="quote-icon" src="/icons/quote.svg" />
-            <h4 className='mt-1'>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
-            <p className="semibold-text mt-4">Student Testimonial</p>
-            <p className=''>6th Grade Afterschool</p>
-          </div>
-        </div>
-        <div className="bg-white border-radius-2 left-text p-2 border-box">
-          <div className="flex-column">
-            <img className="quote-icon" src="/icons/quote.svg" />
-            <h4 className='mt-1'>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
-            <p className="semibold-text mt-4">Student Testimonial</p>
-            <p className=''>6th Grade Afterschool</p>
-          </div>
-        </div>
-        <div className="bg-white border-radius-2 left-text p-2 border-box">
-          <div className="flex-column">
-            <img className="quote-icon" src="/icons/quote.svg" />
-            <h4 className='mt-1'>Lorem ipsum dolor sit amet. Ut laudantium aliquid eos corporis eaque ut corrupti.</h4>
-            <p className="semibold-text mt-4">Student Testimonial</p>
-            <p className=''>6th Grade Afterschool</p>
-          </div>
-        </div>
+        <ReviewBox
+          testimony="I seriously appreciate the time [employee] took to teach all the kids this summer. [Student] looked forward to all the classes everyday."
+          author="Parent Testimonial"
+          program="Summer Program"
+        />
+        <ReviewBox
+          testimony="[Student] likes your program because your system ensures kids are on top of their work. I have taken [student] to many different after-school programs and your program is one of the best."
+          author="Parent Testimonial"
+          program="After-School Program"
+        />
+        <ReviewBox
+          testimony="Thank you for your constant communication with us. You're great at what you do."
+          author="Parent Testimonial"
+          program="After-School Program"
+        />
       </div>
     </div>
   </div>  
@@ -162,20 +153,20 @@ const navigate = useNavigate();
         <h5 className="light-text mt-1">2157 S Brea Canyon Rd, Diamond Bar, CA 91765</h5>
       </div>
       <div className="mt-2 flex gap-1 flex-start w-full">
-        <img src="/images/phone.svg" />
+        <img src="/icons/phone.svg" />
         <h5 className="light-text">(909)-444-1871</h5>
       </div>
-      <div className="mt-05 flex gap-1 flex-start w-full">
-        <img src="/images/email.svg" />
+      <div className="mt-1 flex gap-1 flex-start w-full">
+        <img src="/icons/text-bubble.svg" />
+        <h5 className="light-text">(909)-760-9562</h5>
+      </div>
+      <div className="mt-1 flex gap-1 flex-start w-full">
+        <img src="/icons/email.svg" />
         <h5 className="light-text">totallearningeducation@gmail.com</h5>
       </div>
-      <div className="mt-05 flex gap-1 flex-start w-full">
-        <img src="/images/instagram-white.svg" />
-        <h5 className="light-text">totallearningeducation</h5>
-      </div>
-      <div className="mt-05 flex gap-1 flex-start w-full">
-        <img src="/images/facebook-white.svg" />
-        <h5 className="light-text">totallearningeducation</h5>
+      <div className="mt-1 flex gap-1 flex-start w-full">
+        <img src="/icons/instagram-white.svg" />
+        <h5 className="light-text">totallearning.education</h5>
       </div>
       <a href="https://maps.app.goo.gl/bg5jeFfq9MSNGwSH7" target="_blank">
         <button className="button bg-light-blue-gradient blue-text p mt-2">Get Directions</button>

@@ -15,7 +15,7 @@ function MathPrep() {
             onButtonClick= ""
             backgroundClass='bg-math-prep'
         />
-
+        {/* add section here with filter. buttons to select either option 1 and option 2. selecting option 1 displays only some of the mathprep cards based on a tag on the math prep card. */}
         <div className='flex-column gap-4 align-center max-width mx-auto border-box px-3 mt-4'>
             <MathPrepCard 
                 title="5th Grade Math Placement Test Prep" 
@@ -41,10 +41,6 @@ function MathPrep() {
                 image="/images/MathPrep/algebra-1-img.png"
                 isComingSoon={false}
             />
-        </div>
-
-        <div className='flex-column gap-4 align-center max-width mx-auto border-box px-3 mt-4'>
-            <h1>Coming Soon...</h1>
             <MathPrepCard 
                 title="Advanced Algebra Prep II"
                 grade="7th"
@@ -55,8 +51,12 @@ function MathPrep() {
                 bulletPointTwo="Function transformations, polynomial operations, and functions"
                 bulletPointThree="Advance to the Calculus course track!"
                 image="/images/MathPrep/algebra-2-img.png"
-                isComingSoon={true}
+                isComingSoon={false}
             />
+        </div>
+
+        <div className='flex-column gap-4 align-center max-width mx-auto border-box px-3 mt-4'>
+            <h1>Coming Soon...</h1>
             <MathPrepCard 
                 title="Advanced Algebra Prep III"
                 grade="8th"

@@ -31,8 +31,28 @@ function Header() {
                         </Link>
                         <ul className="flex align-center">
                             <li className="mr-1"><Link to="/about">About Us</Link></li>
-                            <li className="mr-1"><Link to="/math-prep">Math Prep</Link></li>
-                            <li className="mr-1"><Link to="/programs">Programs</Link></li>
+                            <li className="mr-1 dropdown">
+                                <span className="dropdown-trigger">
+                                    <Link to="/math-prep">Math Prep</Link> <span className="caret">▾</span>
+                                </span>
+
+                                <div className="dropdown-menu bg-dark-blue">
+                                    <Link to="/after-school-programs">5th-8th Grade</Link>
+                                    <Link to="/summer-program">AP Math Prep</Link>
+                                </div>
+                            </li>
+                            <li className="mr-1 dropdown">
+                                <span className="dropdown-trigger">
+                                    <Link to="/programs">Programs</Link> <span className="caret">▾</span>
+                                </span>
+
+                                <div className="dropdown-menu bg-dark-blue">
+                                    <Link to="/after-school-programs">After-School Programs</Link>
+                                    <Link to="/summer-program">Summer Program</Link>
+                                    <Link to="/math-prep">Math Prep</Link>
+                                    <Link to="/private-tutoring">Private Tutoring</Link>
+                                </div>
+                            </li>
                             <li className="mr-1"><Link to="/careers">Careers</Link></li>
                             <li className="mr-1">Contact</li>
                         </ul>

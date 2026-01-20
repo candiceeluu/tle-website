@@ -15,7 +15,7 @@ function PrivateTutoring() {
             <div className='max-width mx-auto p-2 flex-column lg-nav-flex-row-reverse align-center gap-2'>
                 <div>
                     <h3>One-on-One Tutoring</h3>
-                    <p className='mt-1'>We offer private tutoring for all our students based on their needs. Our educators can support subjects in Math, English, Chinese, and more.</p>
+                    <p className='mt-1'>We offer private tutoring for all our students based on their needs. Our educators can support subjects in Math, Reading and Writing, Spanish, and more.</p>
                     <p className='mt-1'>For inquiries, please contact our office at (909)-444-1871 or send us an email.</p>
                 </div>
                 <img className="w-full border-radius-2 lg-nav-w-40p" src="/images/PrivateTutoring/private-tutoring-img.jpg"/>
