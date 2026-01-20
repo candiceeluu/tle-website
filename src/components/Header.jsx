@@ -57,7 +57,9 @@ function Header() {
                             <li className="mr-1">
                                 <NavLink to="/careers" className={({ isActive }) => isActive ? 'active' : ''}>Careers</NavLink>
                             </li>
-                            <li className="mr-1">Contact</li>
+                            <li className="mr-1">
+                                <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
+                            </li>
                         </ul>
                         <button className="button bg-green">Join</button>
                     </div>
@@ -72,7 +74,7 @@ function Header() {
                 <li onClick={() => setMenuOpen(false)}><NavLink to="/math-prep">Math Prep</NavLink></li>
                 <li onClick={() => setMenuOpen(false)}><NavLink to="/programs">Programs</NavLink></li>
                 <li onClick={() => setMenuOpen(false)}><NavLink to="/careers">Careers</NavLink></li>
-                <li onClick={() => setMenuOpen(false)}>Contact</li>
+                <li onClick={() => setMenuOpen(false)}><NavLink to="/contact">Contact</NavLink></li>
             </ul>
         </div>
         </>       

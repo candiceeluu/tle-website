@@ -12,6 +12,7 @@ import About from './pages/About';
 import Careers from './pages/Careers';
 import ScrollToTop from './components/ScrollToTop';
 import PrivateTutoring from './pages/PrivateTutoring';
+import Contact from './pages/Contact';
 
 function App() {
  return (
@@ -29,6 +30,7 @@ function App() {
     <Route path="/about" element={<About />} />
     <Route path="/careers" element={<Careers />} />
     <Route path="/private-tutoring" element={<PrivateTutoring />} />
+    <Route path="/contact" element={<Contact />} />
   </Routes>
   </>
  )
