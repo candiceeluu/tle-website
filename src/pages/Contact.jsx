@@ -69,22 +69,51 @@ const Contact = () => {
                         <form onSubmit={onSubmit}>
                             <div className="flex gap-2">
                                 <div className="flex-column w-full">
-                                    <label>First Name: </label>
+                                    <label>Full Name: </label>
                                     <input 
                                         className="form-field"
                                         type="text" 
-                                        placeholder="Enter your first name..." 
-                                        name='firstName' 
+                                        placeholder="Enter your full name..." 
+                                        name='fullName' 
                                         required />
                                 </div>
                                 <div className="flex-column w-full">
-                                    <label>Last Name: </label>
-                                    <input className="form-field" type="text" placeholder="Enter your last name..." name="lastName" required />
+                                    <label>Phone Number (optional): </label>
+                                    <input className="form-field" type="text" placeholder="Enter your phone number..." name="phoneNumber" />
                                 </div>
                             </div>
                             <div className="flex-column mt-2">
                                 <label>Email: </label>
                                 <input className="form-field" type="text" placeholder="Enter your email address..." name='email' required />
+                            </div>
+                            <div className="flex gap-2 mt-2">
+                                <div className="flex-column w-full">
+                                    <label>Grade: </label>
+                                    <select 
+                                        className="form-field"
+                                        type="text" 
+                                        placeholder="Enter your grade..." 
+                                        name='grade' 
+                                        required >
+                                        <option value="1st">1st</option>
+                                        <option value="2nd">2nd</option>
+                                        <option value="3rd">3rd</option>
+                                        <option value="4th">4th</option>
+                                        <option value="5th">5th</option>
+                                        <option value="6th">6th</option>
+                                        <option value="7th">7th</option>
+                                        <option value="8th">8th</option>
+                                        <option value="9th">9th</option>
+                                        <option value="10th">10th</option>
+                                        <option value="11th">11th</option>
+                                        <option value="12th">12th</option>
+
+                                    </select>
+                                </div>
+                                <div className="flex-column w-full">
+                                    <label>School: </label>
+                                    <input className="form-field" type="text" placeholder="Enter your school..." name="school" required />
+                                </div>
                             </div>
                             <div className="flex-column mt-2">
                                 <label>Message: </label>

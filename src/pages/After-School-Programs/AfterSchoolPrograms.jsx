@@ -15,41 +15,55 @@ function AfterSchoolPrograms() {
             title="After-School Programs"
             description="Our after-school programs provide students with homework support and enrichment across elementary, middle, and high school levels. Through guided instruction and additional practice, we help students stay on track and move ahead with confidence."
             buttonText="Sign Up"
-            buttonLink= "https://docs.google.com/forms/d/e/1FAIpQLSfYc1nq7XW2KFaalebziXuPfm44Dqys0tnQ-W1BeEMDQewPkg/viewform?pli=1"
             backgroundClass='bg-afterschool'
         />
 
         <div aria-label="afterschool-programs-btn" className="mt-4">
             <div aria-label="afterschool-programs-btn-content" className="max-width mx-auto flex wrap gap-4 justify-center align-center lg-nav-gap-10">
-                <Link to="/elementary-program">
-                    <div aria-label="elementary-program-btn" className="flex-column align-center">
-                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
-                        <div className="flex-column align-center mt-1">
-                            <h5 className='semibold-text'>Elementary Program</h5>
-                            <p>1st-5th Grade</p>
+                <div className="flex-column align-center">
+                    <Link to="/elementary-program">
+                        <div aria-label="elementary-program-btn">
+                            <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/elementary-program-btn.png" />
+                            <div className="flex-column align-center mt-1">
+                                <h5 className='semibold-text'>Elementary Program</h5>
+                                <p>1st-5th Grade</p>
+                            </div>
                         </div>
-                    </div>
-                </Link>
+                    </Link>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYc1nq7XW2KFaalebziXuPfm44Dqys0tnQ-W1BeEMDQewPkg/viewform?pli=1" target="_blank">
+                                <button className='button black-trans-btn mt-1'>Sign Up</button>
+                    </a>
+                </div>             
                 
-                <Link to="/middle-school-program">
-                    <div aria-label="middle-school-btn" className="flex-column align-center">
-                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/middle-school-program-btn.png" />
-                        <div className="flex-column align-center mt-1">
-                            <h5 className='semibold-text'>Middle School Program</h5>
-                            <p>6th-8th Grade</p>
+                <div className="flex-column align-center">
+                    <Link to="/middle-school-program">
+                        <div aria-label="middle-school-btn">
+                            <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/middle-school-program-btn.png" />
+                            <div className="flex-column align-center mt-1">
+                                <h5 className='semibold-text'>Middle School Program</h5>
+                                <p>6th-8th Grade</p>
+                            </div>                 
                         </div>
-                    </div>
-                </Link>
+                    </Link>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYc1nq7XW2KFaalebziXuPfm44Dqys0tnQ-W1BeEMDQewPkg/viewform?pli=1" target="_blank">
+                                <button className='button black-trans-btn mt-1'>Sign Up</button>
+                    </a>   
+                </div>
 
-                <Link to="/high-school-program">
-                    <div aria-label="high-school-program-btn" className="flex-column align-center">
-                        <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/high-school-program-btn.png" />
-                        <div className="flex-column align-center mt-1">
-                            <h5 className='semibold-text'>High School Program</h5>
-                            <p>9th-12th Grade</p>
+                <div className="flex-column align-center">
+                    <Link to="/high-school-program">
+                        <div aria-label="high-school-program-btn">
+                            <img className="afterschool-programs-btn-h" src="/images/AfterSchoolPrograms/high-school-program-btn.png" />
+                            <div className="flex-column align-center mt-1">
+                                <h5 className='semibold-text'>High School Program</h5>
+                                <p>9th-12th Grade</p>
+                            </div>                  
                         </div>
-                    </div>
-                </Link>
+                    </Link>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYdSrmk5b0YwjDp_tvVufmzbL3NyeCAbLOD4zYq9s7hxdEyQ/viewform" target="_blank">
+                                <button className='button black-trans-btn mt-1'>Sign Up</button>
+                    </a>  
+                </div>
             </div>
         </div>
 

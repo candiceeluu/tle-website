@@ -31,7 +31,7 @@ function SummerProgramBox({
                     <button className='button black-trans-btn'>See Schedule</button>
                 </a>
                 <a href={registerLink} target="_blank">
-                    <button className='button'>Register</button>
+                    <button className='button bg-green'>Register</button>
                 </a>
             </div>
         </div>

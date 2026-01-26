@@ -20,8 +20,7 @@ function MathPrepCard({
         <button className="button red-trans-btn">Coming Soon</button>
     ) : ( 
     <>
-        <button className="bg-dark-green button white-text">Register</button>
-        <button className="button">Learn More</button> 
+        <div></div>
     </>
     )
 

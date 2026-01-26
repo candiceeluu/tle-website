@@ -15,7 +15,6 @@ function SummerProgram() {
             title="Summer Program"
             description="Designed to prepare students for the next academic year, our summer program combines instructional preview, weekly assessments, and enrichment activities. Weekly field trips add a fun, hands-on element to learning throughout the summer."
             buttonText="Sign Up"
-            buttonLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
             backgroundClass='bg-summer-program'
         />
 
@@ -50,7 +49,7 @@ function SummerProgram() {
                         bulletTwo="DBHS / WHS homework help and test prep"
                         bulletThree="Aligned schedule with DBHS / WHS summer school schedule"
                         bulletFour="Daily lunch options"
-                        registerLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
+                        registerLink="https://docs.google.com/forms/d/1TguoY8UxkuQj2r9H-HzNNjax-yRGskaYyCN0Cu6tHzc/viewform?edit_requested=true"
                     />
                     <div aria-label="summer-program-grade-school-box" className='flex-column bg-dark-blue-gradient white-text w-19p border-radius-2 p-2'>
                         <h3>Want Lunch?</h3>
@@ -66,7 +65,6 @@ function SummerProgram() {
                 <div aria-label="summer-program-archive" className='my-4'>
                     <div>
                         <h1>Summer Archive</h1>
-                        <button className='button black-trans-btn mt-1'>View More Photos</button>
                     </div>
                     <div className='mt-4'>
                         <div className='flex wrap justify-center gap-8'>
