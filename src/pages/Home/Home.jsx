@@ -33,6 +33,18 @@ const navigate = useNavigate();
  </div>
 
  <div className="bg-bright-blue lg-nav-mt-4">
+ <AnimatedContent
+  distance={100}
+  direction="vertical"
+  reverse={false}
+  duration={0.8}
+  ease="power3.out"
+  initialOpacity={0}
+  animateOpacity
+  scale={1}
+  threshold={0.1}
+  delay={0}
+  >
   <div className="hero-content-2">
     <img className="hero-img-2" src="/images/hero-2-img.jpg" />
     <div className="hero-text-2 flex-column white-text">
@@ -53,9 +65,22 @@ const navigate = useNavigate();
       </Link>
     </div>
   </div>
+</AnimatedContent>
  </div>
 
   <div className="hero-3">
+  <AnimatedContent
+  distance={100}
+  direction="vertical"
+  reverse={false}
+  duration={2.5}
+  ease="power3.out"
+  initialOpacity={0}
+  animateOpacity
+  scale={1}
+  threshold={0.1}
+  delay={0}
+  >
     <div className="hero-content-3 flex-column center-text">
       <img className="icon" src="/images/location.svg" />
       <h2>Located near <span className='green-gradient-text'>15+ schools</span></h2>
@@ -66,8 +91,21 @@ const navigate = useNavigate();
         <img className="school-logo" src="/images/pusd.jpg" />
       </div>
     </div>
+  </AnimatedContent>
   </div>
 
+  <AnimatedContent
+  distance={100}
+  direction="vertical"
+  reverse={false}
+  duration={0.8}
+  ease="power3.out"
+  initialOpacity={0}
+  animateOpacity
+  scale={1}
+  threshold={0.1}
+  delay={0}
+  >
   <div className="mt-4 lg-nav-mt-8 bg-dark-blue">
     <div className="flex-column align-center justify-center max-width mx-auto p-3">
       <h2 className='white-text'>Our Services</h2>
@@ -96,6 +134,7 @@ const navigate = useNavigate();
       </div>
     </div>
   </div>
+</AnimatedContent>
 
   <div className="mt-4 lg-nav-mt-8">
     <div className="max-width mx-auto p-2 flex-column center-text">
