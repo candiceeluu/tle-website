@@ -13,11 +13,13 @@ import Careers from './pages/Careers';
 import ScrollToTop from './components/ScrollToTop';
 import PrivateTutoring from './pages/PrivateTutoring';
 import Contact from './pages/Contact';
+import ScrollToHash from './utils/ScrollToHash';
 
 function App() {
  return (
   <>
   <ScrollToTop />
+  <ScrollToHash />
   <Routes>
     <Route path="/" element={<Home /> } />
     <Route path="/programs" element={<Programs />} />

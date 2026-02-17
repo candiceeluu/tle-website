@@ -9,8 +9,14 @@ function SummerProgramBox({
     bulletTwo,
     bulletThree,
     bulletFour,
-    registerLink
+    registerLink,
+    grade
 }) {
+
+    const highSchoolSchedule = "/documents/2025-summer-high-school.pdf"
+    const gradeSchoolSchedule = "/documents/2025-summer-grade-school.pdf"
+    const schedule = (grade == "HS") ? highSchoolSchedule : gradeSchoolSchedule
+
     return (
         <>
         <div className='flex-column space-between bg-white border-radius-2 p-2 flex-1'>
@@ -27,7 +33,7 @@ function SummerProgramBox({
                 </ul>
             </div>
             <div className='flex space-between mt-2'>
-                <a href="/documents/2025-summer-grade-school.pdf" target="_blank">
+                <a href={schedule} target="_blank">
                     <button className='button black-trans-btn'>See Schedule</button>
                 </a>
                 <a href={registerLink} target="_blank">

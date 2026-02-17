@@ -4,6 +4,7 @@ import Footer from '/src/components/Footer';
 import { useNavigate, Link } from 'react-router-dom'
 import FooterCard from '/src/components/FooterCard';
 import ReviewBox from '../../components/ReviewBox';
+import AnimatedContent from '../../utils/AnimatedContent';
 
 function Home() {
 
@@ -24,11 +25,24 @@ const navigate = useNavigate();
       className='w-full block h-auto'
     />
   </picture>
+  <AnimatedContent
+  distance={100}
+  direction="vertical"
+  reverse={false}
+  duration={0.8}
+  ease="power3.out"
+  initialOpacity={0}
+  animateOpacity
+  scale={1}
+  threshold={0.1}
+  delay={0}
+  >
   <div className="p-3 absolute inset-0 flex-column flex-end white-text lg-nav-black-text lg-nav-flex-start lg-nav-mt-4 lg-nav-w-40p">
     <h1>Where knowledge <span className="lg-nav-green-gradient-text">sprouts!</span></h1>
     <h5 className='mt-1'>Building strong study habits, solid math and ELA foundations, and a reliable homework system—so schoolwork is done and families can enjoy time together.</h5>
     <button onClick={() => navigate("/programs")} className="button white-btn mt-2 lg-nav-black-btn lg-nav-bg-white">Find a Program</button>
   </div>
+  </AnimatedContent>
  </div>
 
  <div className="bg-bright-blue lg-nav-mt-4">

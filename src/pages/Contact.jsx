@@ -89,26 +89,7 @@ const Contact = () => {
                             <div className="flex gap-2 mt-2">
                                 <div className="flex-column w-full">
                                     <label>Grade: </label>
-                                    <select 
-                                        className="form-field"
-                                        type="text" 
-                                        placeholder="Enter your grade..." 
-                                        name='grade' 
-                                        required >
-                                        <option value="1st">1st</option>
-                                        <option value="2nd">2nd</option>
-                                        <option value="3rd">3rd</option>
-                                        <option value="4th">4th</option>
-                                        <option value="5th">5th</option>
-                                        <option value="6th">6th</option>
-                                        <option value="7th">7th</option>
-                                        <option value="8th">8th</option>
-                                        <option value="9th">9th</option>
-                                        <option value="10th">10th</option>
-                                        <option value="11th">11th</option>
-                                        <option value="12th">12th</option>
-
-                                    </select>
+                                    <input className="form-field" type="text" placeholder="Enter grade level..." name="grade" required/>
                                 </div>
                                 <div className="flex-column w-full">
                                     <label>School: </label>

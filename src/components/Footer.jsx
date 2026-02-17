@@ -32,7 +32,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className="footer-links-2 footer-text">
-                    <Link to="/after-school-program">
+                    <Link to="/after-school-programs">
                         <a className="footer-text-top-margin semibold-text">After-School Programs</a>
                     </Link>
                     <Link to="/elementary-program">
@@ -47,8 +47,12 @@ function Footer() {
                     <Link to="/summer-program">
                         <a className="footer-text-top-margin semibold-text">Summer Program</a>
                     </Link>
-                    <a>Grade School</a>
-                    <a>High School</a>
+                    <Link to="/summer-program#summer-programs">
+                        Grade School
+                    </Link>
+                    <Link to="/summer-program#summer-programs">
+                        High School
+                    </Link>
                 </div>
             </div>
         </div>

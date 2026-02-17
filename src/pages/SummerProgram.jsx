@@ -25,7 +25,7 @@ function SummerProgram() {
             </div>
         </div>
 
-        <div className='bg-sky-blue mt-4'>
+        <div className='bg-sky-blue mt-4'  id="summer-programs">
             <div className='flex-column max-width mx-auto p-2'>
                 <h2 className='mt-2'>Our Summer Programs</h2>
                 <div aria-label="summer-programs-boxes" className='flex wrap space-between gap-4 mt-2'>
@@ -39,6 +39,7 @@ function SummerProgram() {
                         bulletThree="Choose different level classes"
                         bulletFour="Weekly fun field trips!"
                         registerLink="https://docs.google.com/forms/d/e/1FAIpQLSdhLlSPKOsj0M1Kh89cyf1pxI-RQyJJ1kUSQbiCiwBn-OUn8g/viewform"
+                        grade="GS"
                     />
                     <SummerProgramBox 
                         title="High School"
@@ -49,7 +50,8 @@ function SummerProgram() {
                         bulletTwo="DBHS / WHS homework help and test prep"
                         bulletThree="Aligned schedule with DBHS / WHS summer school schedule"
                         bulletFour="Daily lunch options"
-                        registerLink="https://docs.google.com/forms/d/1TguoY8UxkuQj2r9H-HzNNjax-yRGskaYyCN0Cu6tHzc/viewform?edit_requested=true"
+                        registerLink="https://forms.gle/aigGoZ6rG3PS7nEfA"
+                        grade="HS"
                     />
                     <div aria-label="summer-program-grade-school-box" className='flex-column bg-dark-blue-gradient white-text w-19p border-radius-2 p-2'>
                         <h3>Want Lunch?</h3>
