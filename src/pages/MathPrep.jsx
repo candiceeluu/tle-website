@@ -71,7 +71,7 @@ const mathPrepPrograms = [
         bulletPointOne: "Prepare for Algebra 2 & Trigonometry",
         bulletPointTwo: "Prepare for future math courses",
         bulletPointThree: "Advance to the Calculus course track!",
-        image: "/images/MathPrep/geometry-img.png",
+        image: "/images/MathPrep/algebra-2-img.png",
         isComingSoon: true,
         tag: "prep"
     },
