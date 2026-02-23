@@ -17,6 +17,22 @@
     body {
         @apply bg-background;
     }
+
+    h1 {
+        @apply text-5xl font-semibold;
+    }
+
+    h2 {
+        @apply text-4xl font-semibold;
+    }
+
+    h3 {
+        @apply text-3xl font-medium;
+    }
+
+    p {
+        @apply text-base font-normal;
+    }
 }
 
 @layer components {

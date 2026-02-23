@@ -13,7 +13,7 @@ function LearningPrograms() {
         <div className="flex flex-col gap-2 space-between lg:max-w-1/2">
           <div>
             <p className="text-light-green">LEARNING PROGRAMS</p>
-            <h2 className="text-secondary">After-School and Summer Programs</h2>
+            <h2 className="text-secondary mt-1">After-School and Summer Programs</h2>
           </div>
           <p className="text-muted">
             Our after-school and summer programs are designed to support
@@ -23,7 +23,7 @@ function LearningPrograms() {
           </p>
           <Link to="/programs">
             <div className="flex items-center gap-1 group">
-              <p className="text-light-yellow font-semibold">
+              <p className="text-light-yellow font-medium">
                 Explore Our Programs
               </p>
               <div className="w-2.5 transition-transform duration-300 group-hover:translate-x-1">

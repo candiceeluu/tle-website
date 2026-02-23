@@ -1,9 +1,9 @@
 import './Home.css'
+import "/src/styles/globals.css";
+import "/src/styles/animations.css";
 import Header from '/src/components/layout/Header';
 import Footer from '/src/components/layout/Footer';
-import { useNavigate, Link } from 'react-router-dom'
 import FooterCard from '/src/components/ui/FooterCard';
-import ReviewBox from '/src/components/ui/ReviewBox';
 import Hero from '/src/components/blocks/Landing/Hero';
 import LearningPrograms from '/src/components/blocks/Landing/LearningPrograms';
 import Services from '/src/components/blocks/Landing/Services/Services';
@@ -11,11 +11,7 @@ import Location from '/src/components/blocks/Landing/Location';
 import Community from '/src/components/blocks/Landing/Reviews/Community';
 import Stats from '../../components/blocks/Landing/Stats';
 
-import AnimatedContent from '/src/utils/AnimatedContent';
-
 function Home() {
-
-const navigate = useNavigate();
 
  return (
  <>
@@ -28,32 +24,6 @@ const navigate = useNavigate();
  <Community />
 
  {/* <div className="mt-4 lg-nav-mt-8">
-  <div className="flex align-center p-2 max-width mx-auto">
-    <div className="flex-column">
-      <h1 className="light-blue-text">Grow with confidence.
-          <span className="green-text"> We support our students with guidance and care.</span></h1>
-      <div className="flex gap-2 mt-3">
-        <div className="hero-6-stat">
-          <h1>100+</h1>
-          <h4>students</h4>
-        </div>
-        <div className="hero-6-stat">
-          <h1>10+</h1>
-          <h4>educators</h4>
-        </div>
-        <div className="hero-6-stat">
-          <h1>25</h1>
-          <h4>schools</h4>
-        </div>
-        <div className="hero-6-stat">
-          <h1 className="light-blue-text">18</h1>
-          <h4>years</h4>
-        </div>
-      </div>
-    </div>
-    <img className="desktop-only" style={{right:0}}src="/images/hero-img-6.png" />
-  </div>
- </div>
  <div className="mt-4 lg-nav-mt-8 p-2">
   <div className="bg-dark-blue-gradient max-width mx-auto border-radius-2 flex-column p-2 lg-nav-flex-row lg-nav-p-3 border-box space-between">
     <div className="flex-column center-text white-text lg-nav-left-text">
