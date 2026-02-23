@@ -10,19 +10,17 @@ function Header() {
         <div style={{borderBottom:"1px solid black", backgroundColor:"#FFFDFA"}} className="sticky-header w-full" >
             <header className= "bg-white header-h">
                 <nav className="px py h-full">
-                    <div className="mobile-only align-center space-between h-full w-full border-box">
-                        <img 
-                            src="images/hamburger.svg" 
-                            alt="Menu"
-                            className='pointer'
-                            onClick={() => setMenuOpen(true)}
-
-                        />
-                        <NavLink to="/">
-                            <img className="header-logo" src="images/tle-logo.jpeg" />
-                        </NavLink>
-                        <button className="button bg-green">Join</button>
-                    </div>
+                <div className="mobile-only relative flex items-center justify-center h-full w-full">
+                    <img
+                        src="images/hamburger.svg"
+                        alt="Menu"
+                        className="absolute left-0 cursor-pointer"
+                        onClick={() => setMenuOpen(true)}
+                    />
+                    <NavLink to="/">
+                        <img className="header-logo" src="images/tle-logo.jpeg" />
+                    </NavLink>
+                </div>
 
                     <div className="desktop-only align-center space-between h-full max-width mx-auto">
                         <NavLink to="/">

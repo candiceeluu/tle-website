@@ -1,5 +1,5 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Header from '/src/components/layout/Header';
+import Footer from "../components/layout/Footer"
 import './Contact.css'
 import { useState } from 'react'
 

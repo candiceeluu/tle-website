@@ -1,10 +1,10 @@
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
+import Header from '/src/components/layout/Header';
+import Footer from '/src/components/layout/Footer';
 import './AfterSchoolPrograms.css'
 import { Link, useNavigate } from 'react-router-dom'
-import HeroCard from '../../components/HeroCard';
-import FooterCard from '../../components/FooterCard';
-import GradeLevelCard from '../../components/GradeLevelCard';
+import HeroCard from '../../components/ui/HeroCard';
+import FooterCard from '../../components/ui/FooterCard';
+import GradeLevelCard from '../../components/ui/GradeLevelCard';
 
 function AfterSchoolPrograms() {
     const navigate = useNavigate();

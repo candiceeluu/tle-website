@@ -1,6 +1,6 @@
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
-import FooterCard from '../../components/FooterCard';
+import Header from '/src/components/layout/Header';
+import Footer from '/src/components/layout/Footer';
+import FooterCard from '../../components/ui/FooterCard';
 
 function HighSchoolProgram() {
     return (

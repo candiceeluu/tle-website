@@ -1,11 +1,10 @@
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
-import HeroCard from '../components/HeroCard';
-import Tag from '../components/Tag';
-import Polaroid from '../components/Polaroid';
-import CustomerTestimonial from '../components/CustomerTestimonial';
-import FooterCard from '/src/components/FooterCard'
-import SummerProgramBox from '../components/SummerProgramBox';
+import Header from '/src/components/layout/Header';
+import Footer from '/src/components/layout/Footer';
+import HeroCard from '../components/ui/HeroCard';
+import Polaroid from '../components/ui/Polaroid';
+import CustomerTestimonial from '../components/ui/CustomerTestimonial';
+import FooterCard from '/src/components/ui/FooterCard'
+import SummerProgramBox from '../components/ui/SummerProgramBox';
 
 function SummerProgram() {
     return (

@@ -1,6 +1,6 @@
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
-import CareerCard from '../components/CareerCard';
+import Header from '/src/components/layout/Header';
+import Footer from '/src/components/layout/Footer';
+import CareerCard from '../components/ui/CareerCard';
 
 function Careers() {
     return (

@@ -10,12 +10,14 @@ import SummerProgram from './pages/SummerProgram';
 import MathPrep from './pages/MathPrep';
 import About from './pages/About';
 import Careers from './pages/Careers';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ui/ScrollToTop';
 import PrivateTutoring from './pages/PrivateTutoring';
 import Contact from './pages/Contact';
 import ScrollToHash from './utils/ScrollToHash';
+import { useScrollAnimation } from './controllers/useScrollAnimation';
 
 function App() {
+  useScrollAnimation();
  return (
   <>
   <ScrollToTop />
