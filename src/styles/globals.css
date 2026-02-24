@@ -5,6 +5,7 @@
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
     --color-muted: var(--muted);
+    --color-muted-dark: var(--muted-dark);
     --color-dark-blue: var(--dark-blue);
     --color-dark-green: var(--dark-green);
     --color-light-green: var(--light-green);
@@ -68,6 +69,7 @@
     --primary: oklch(0 0 0);
     --secondary: oklch(1 0 0);
     --muted: oklch(82.66% 0.000 0);
+    --muted-dark: #525252;
     --dark-blue: #284D77;
     --dark-green: #40733F;
     --light-green: oklch(0.8409 0.1104 144.15);
