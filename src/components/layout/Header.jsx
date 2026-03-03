@@ -6,8 +6,7 @@ function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
-        <>
-        <div style={{borderBottom:"1px solid black", backgroundColor:"#FFFDFA"}} className="sticky-header w-full" >
+        <section className="absolute top-0 z-10 w-full sticky-header border-b-1">
             <header className= "bg-white header-h">
                 <nav className="px py h-full">
                 <div className="mobile-only relative flex items-center justify-center h-full w-full">
@@ -66,7 +65,6 @@ function Header() {
                 
                 </nav>
             </header>
-        </div>
         <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
             <button className="close-btn black-text" onClick={() => setMenuOpen(false)}>✕</button>
             <ul>
@@ -77,7 +75,7 @@ function Header() {
                 <li onClick={() => setMenuOpen(false)}><NavLink to="/contact">Contact</NavLink></li>
             </ul>
         </div>
-        </>       
+        </section>       
     )
 }
 

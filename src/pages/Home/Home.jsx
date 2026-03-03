@@ -1,5 +1,4 @@
 import './Home.css'
-import "/src/styles/globals.css";
 import "/src/styles/animations.css";
 import Header from '/src/components/layout/Header';
 import Footer from '/src/components/layout/Footer';
@@ -15,7 +14,6 @@ function Home() {
 
  return (
  <>
- <Header />
  <Hero />
  <LearningPrograms />
  <Services />
@@ -69,7 +67,6 @@ function Home() {
     buttonText="Sign Up"
     buttonLink="/programs"
  />
- <Footer />
  </>
  )
 }

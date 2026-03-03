@@ -1,4 +1,5 @@
-import Tag from "./Tag.jsx"
+import Tag from "../../ui/Tag.jsx"
+
 function MathPrepCard({
     title,
     grade,
@@ -26,7 +27,7 @@ function MathPrepCard({
 
     return (
         <>
-        <div className={`${bgColor} ${fontColor} border-radius-2 p-3 w-full border-box`} style={{filter: "drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5))"}}>
+        <div className={`${bgColor} ${fontColor} rounded-2xl p-10 w-full border-box`} style={{filter: "drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5))"}}>
             <div className="flex space-between">
                 <h3>{title}</h3>
                 <Tag text={grade} backgroundClass={gradeColorClass}/>

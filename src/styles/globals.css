@@ -6,8 +6,10 @@
     --color-secondary: var(--secondary);
     --color-muted: var(--muted);
     --color-muted-dark: var(--muted-dark);
+    --color-sky-blue: #DDEDFF;
     --color-dark-blue: var(--dark-blue);
     --color-dark-green: var(--dark-green);
+    --color-green: #90BD7D;
     --color-light-green: var(--light-green);
     --color-light-yellow: var(--light-yellow);
     --color-light-blue: var(--light-blue);
@@ -15,8 +17,12 @@
 }
 
 @layer base {
+    html {
+        scroll-behavior: smooth;
+    }
     body {
         @apply bg-background;
+
     }
 
     h1 {
@@ -31,6 +37,10 @@
         @apply text-3xl font-medium;
     }
 
+    h4{
+        @apply text-2xl font-medium
+    }
+
     p {
         @apply text-base font-normal;
     }
@@ -40,7 +50,14 @@
     button {
         cursor: pointer;
         border: solid white 2px;
+        padding: 0.5rem 1rem;
         border-radius: 4rem;
+    }
+
+    button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
     }
 
     .green-gradient {
@@ -53,10 +70,10 @@
 }
 
 @utility container {
-    @apply max-w-(--container-max-w) px-8;
+    @apply max-w-(--container-max-w) px-10;
 
     @variant lg {
-        @apply max-w-(--container-lg-max-w) px-12;
+        @apply max-w-(--container-lg-max-w);
     }
 
     @variant 3xl {
@@ -75,8 +92,6 @@
     --light-green: oklch(0.8409 0.1104 144.15);
     --light-yellow: #EBD39C;
     --light-blue: oklch(0.8663 0.052 252);
-
-    --green-gradient: linear-gradient(#)
 
 
     --container-max-w: 800px;

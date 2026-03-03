@@ -17,7 +17,7 @@ function GradeLevelCard({
             <div className="w-full h-180px lg-nav-w-50p lg-nav-h-auto">
                 <img className="w-full h-full cover" src={image} />
             </div>
-            <div className="p-2 lg-nav-p-3 lg-nav-w-50p flex-column">
+            <div className="p-10 lg-nav-p-3 lg-nav-w-50p flex-column">
                 <div className="right-text w-full flex flex-end">
                     <div className="w-fit-content">
                         <Tag text={tagText} backgroundClass={tagStyle}/>

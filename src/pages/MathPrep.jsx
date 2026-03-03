@@ -1,7 +1,5 @@
-import Header from '/src/components/layout/Header';
-import Footer from '/src/components/layout/Footer';
 import HeroCard from "../components/ui/HeroCard"
-import MathPrepCard from '../components/ui/MathPrepCard';
+import MathPrepCard from "../components/blocks/MathPrep/MathPrepCard";
 import FooterCard from '/src/components/ui/FooterCard';
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom';
@@ -155,15 +153,14 @@ function MathPrep() {
 
     return (
         <>
-        <Header />
         <HeroCard 
             title="Math Prep"
             description="Our math prep classes provide structured, small-group learning that helps students deepen understanding and succeed in advanced math pathways. With targeted practice and guidance, students are well prepared for placement exams."
             buttonText="Sign Up"
             onButtonClick= ""
-            backgroundClass='bg-math-prep'
+            backgroundImage="url('/images/Programs/bg-math-prep.jpg')"
         />
-       <div className="flex wrap gap-2 space-between mt-1 max-width mx-auto p-2">
+       <div className="flex wrap gap-2 space-between mt-2 max-width mx-auto p-2">
             <div>
                 <h3>{TITLES[activeFilter]}</h3>
             </div>
@@ -206,7 +203,6 @@ function MathPrep() {
             description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
             hasButton={false}
         />
-        <Footer />
         </>
     )
 }

@@ -33,7 +33,6 @@ const Contact = () => {
   };
     return (
         <>
-        <Header />
         <div className="bg-bright-blue white-text py-4">
             <div className="max-width mx-auto flex-column lg-nav-flex-row p-2 align-center space-between">
                 <div className="center-text lg-nav-left-text">
@@ -108,7 +107,6 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <Footer />
         </>
     )
 }
