@@ -71,7 +71,7 @@ function ServiceBox({
     <section className="bg-secondary flex flex-col justify-between rounded-3xl px-8 pt-14 pb-10">
       <div
         style={{ backgroundColor: iconColor }}
-        className="w-fit p-1 rounded-full flex justify-center items-center"
+        className="w-fit p-4 rounded-full flex justify-center items-center"
       >
         <div className="w-10">{iconMap[icon]}</div>
       </div>

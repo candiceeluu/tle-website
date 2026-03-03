@@ -5,7 +5,6 @@ import CareerCard from '../components/ui/CareerCard';
 function Careers() {
     return (
         <>
-        <Header />
         <div className='max-width mx-auto px-3 flex-column align-center'>
             <div className='center-text my-4 flex align-center gap-2'>
                 <img className="desktop-only" src="/icons/careers-plant.svg" />
@@ -56,7 +55,6 @@ function Careers() {
                 <p className='center-text'>For inquiries, please email totallearningeducation@gmail.com or call (909)-444-1871</p>
             </div>
         </div>
-        <Footer />
         </>
     )
 }

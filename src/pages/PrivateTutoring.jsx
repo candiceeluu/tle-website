@@ -5,11 +5,10 @@ import HeroCard from '/src/components/ui/HeroCard';
 function PrivateTutoring() {
     return (
         <>
-        <Header />
         <HeroCard 
             title="Private Tutoring"
             description="We provide personalized, one-on-one tutoring in multiple subjects to support academic growth and mastery. Each session is customized to help students progress at their own pace."
-            backgroundClass="bg-private-tutoring"
+            backgroundImage="url('/images/Programs/bg-private-tutoring.jpg')"
         />
         <div className='mt-2'>
             <div className='max-width mx-auto p-2 flex-column lg-nav-flex-row-reverse align-center gap-2'>
@@ -21,7 +20,6 @@ function PrivateTutoring() {
                 <img className="w-full border-radius-2 lg-nav-w-40p" src="/images/PrivateTutoring/private-tutoring-img.jpg"/>
             </div>
         </div>
-        <Footer />
         </>
     )
 }

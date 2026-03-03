@@ -1,4 +1,4 @@
-import Tag from "./Tag"
+import Tag from "../../ui/Tag"
 
 function SummerProgramBox({
     title,
@@ -13,15 +13,15 @@ function SummerProgramBox({
     grade
 }) {
 
-    const highSchoolSchedule = "/documents/2025-summer-high-school.pdf"
-    const gradeSchoolSchedule = "/documents/2025-summer-grade-school.pdf"
+    const highSchoolSchedule = "/documents/2026-summer-high-school.pdf"
+    const gradeSchoolSchedule = "/documents/2026-summer-grade-school.pdf"
     const schedule = (grade == "HS") ? highSchoolSchedule : gradeSchoolSchedule
 
     return (
         <>
-        <div className='flex-column space-between bg-white border-radius-2 p-2 flex-1'>
+        <div className='flex flex-col justify-between bg-secondary rounded-2xl p-10 relative'>
             <div>
-                <div className='flex space-between align-center'>
+                <div className='flex justify-between items-center'>
                     <h3>{title}</h3>
                     <Tag text={tagText} backgroundClass={tagColor}/>
                 </div>
@@ -32,12 +32,12 @@ function SummerProgramBox({
                     <li>{bulletFour}</li>
                 </ul>
             </div>
-            <div className='flex space-between mt-2'>
+            <div className='flex justify-between mt-2'>
                 <a href={schedule} target="_blank">
-                    <button className='button black-trans-btn'>See Schedule</button>
+                    <button className="border-black">See Schedule</button>
                 </a>
                 <a href={registerLink} target="_blank">
-                    <button className='button bg-green'>Register</button>
+                    <button className='bg-green'>Register</button>
                 </a>
             </div>
         </div>

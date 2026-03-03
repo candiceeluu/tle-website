@@ -10,12 +10,11 @@ function AfterSchoolPrograms() {
     const navigate = useNavigate();
     return (
         <>
-        <Header />
         <HeroCard 
             title="After-School Programs"
             description="Our after-school programs provide students with homework support and enrichment across elementary, middle, and high school levels. Through guided instruction and additional practice, we help students stay on track and move ahead with confidence."
             buttonText="Sign Up"
-            backgroundClass='bg-afterschool'
+            backgroundImage="url('/images/Programs/bg-afterschool.jpg')"
         />
 
         <div aria-label="afterschool-programs-btn" className="mt-4">
@@ -68,7 +67,7 @@ function AfterSchoolPrograms() {
         </div>
 
         <div aria-label="afterschool-programs-services" className="mt-4 lg-nav-mt-8">
-            <div aria-label="afterschool-programs-services-content" className="max-width mx-auto bg-light-blue border-box lg-nav-border-radius-2 p-3">
+            <div aria-label="afterschool-programs-services-content" className="max-width mx-auto bg-light-blue border-box lg-nav-border-radius-2 p-10">
                 <div aria-label="afterschol-programs-services-text" className="flex-column align-center center-text lg-nav-px-15">
                     <h2>Make the school year a breeze.</h2>
                     <p className="mt-1">At TLE, we strive for your child's academic achievement. With consistent afterschool structure, our students are able to develop healthy habits and excel academically, all before 6pm.</p>
@@ -114,7 +113,7 @@ function AfterSchoolPrograms() {
         </div>
 
         <div aria-label="afterschool-private-tutoring" className="mt-4 lg-nav-mt-8 bg-green">
-            <div aria-label="afterschool-private-tutoring-content" className="max-width mx-auto flex-column align-center lg-nav-flex-row border-box p-3">
+            <div aria-label="afterschool-private-tutoring-content" className="max-width mx-auto flex-column align-center lg-nav-flex-row border-box p-10">
                 <div aria-label="afterschool-private-tutoring-text" className="lg-nav-mr-3">
                     <h2>Additional Private Tutoring</h2>
                     <p className="mt-1">We also offer private tutoring for our students based on their specific needs. For inquiries, please give us a call or send us an email.</p>
@@ -167,7 +166,6 @@ function AfterSchoolPrograms() {
             description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
             hasButton={false}
         />
-        <Footer />
         </>
     )
 }

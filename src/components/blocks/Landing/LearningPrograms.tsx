@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "/src/styles/globals.css";
 import Arrow from "@/components/ui/arrow";
 
 function LearningPrograms() {

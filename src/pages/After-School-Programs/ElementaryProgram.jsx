@@ -5,7 +5,6 @@ import FooterCard from '../../components/ui/FooterCard';
 function ElementaryProgram() {
     return (
         <>
-        <Header />
         <div aria-label="desktop-elementary-program-hero" className="desktop-only mt-1">
             <div aria-label="elementary-program-hero-content" className="max-width mx-auto flex align-center mt-2">
                 <img className="w-20p" src="/images/ElementaryProgram/elementary-hero-img-1.png" />
@@ -99,7 +98,6 @@ function ElementaryProgram() {
             title="Questions?"
             description="Give us a call at (909)-444-1871 or email us at totallearningeducation@gmail.com for more information."
         />
-        <Footer />
         </>
     )
 }
