@@ -1,9 +1,13 @@
 function EnrollmentOpen({ isOpen }) {
   const LocalVideoPlayer =  (
-      <video controls>
-        <source src="./videos/summer_promo.mp4" type="video/mp4" />
-        Your browser does not support this video.
-      </video>
+      <iframe 
+        width="560" height="315"
+        src="https://www.youtube.com/embed/JANCM-8ends?si=BoAqMXd9McUDBab4"
+        title="YouTube video player"
+        frameborder="0" allow="accelerometer; 
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
     )
 
     return (
