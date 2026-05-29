@@ -472,6 +472,10 @@ ul {
   background: linear-gradient(-66deg, rgba(100, 158, 224, 1) 0%, rgba(169, 199, 168, 1) 100%);
 }
 
+.bg-swim-blue {
+  background-image: linear-gradient(to right, #4887CE, #51A6B8);
+}
+
 /* border styling */
 .border-blue {
   border: solid;

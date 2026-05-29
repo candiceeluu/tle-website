@@ -1,6 +1,7 @@
 import SummerProgramBox from "./SummerProgramBox"
 import Polaroid from "./Polaroid"
 import Arrow from "@/components/ui/arrow";
+import SummerSwimBox from "./SummerSwimBox";
 
 export default function OurSummerPrograms() {
     return (
@@ -58,6 +59,7 @@ export default function OurSummerPrograms() {
                             </div>
                         </div>
                     </div>
+                    <SummerSwimBox />
                     <div className="flex flex-col pt-30">
                         <h2>Summer Archive</h2>
                         <div className="flex flex-col gap-20 items-center pt-20">
