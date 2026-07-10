@@ -53,8 +53,8 @@ function HighSchoolProgram() {
             <div aria-label="elementary-program-services" className="mt-4 lg-nav-mt-8">
                 <div aria-label="elementary-program-services-content" className="px-3 max-width mx-auto flex-column align-center">
                     <h2 className='center-text lg-nav-px-15'>Strive for academic excellence, <span className='blue-gradient-text'>nurtured with care</span></h2>
-                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-3'>
-                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p">
+                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-10 p-4-mobile'>
+                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p w-full-mobile">
                             <div className='bg-light-blue border-radius-2 p-08 flex align-center w-fit-content gap-1'>
                                 <img src="/icons/person-blue.svg" />
                                 <p className=''>Study Habits</p>
@@ -63,9 +63,10 @@ function HighSchoolProgram() {
                             <p className="mt-1">Time management is crucial for high school students, and we strongly encourage students to follow a routine. TLE is more than happy to help our students with any questions or concerns regarding homework.</p>
                         </div>
                     </div>
+
                     <div aria-label="elementary-program-services-2" className='mt-1'>
-                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex wrap gap-1">
-                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex flex-col md:flex-row gap-1">
+                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-blue border-radius-2 p-08 flex justify-center w-fit-content gap-1'>
                                     <img src="/icons/book-blue.svg" />
                                     <p className=''>Development</p>
@@ -73,7 +74,7 @@ function HighSchoolProgram() {
                                 <h3 className="mt-3">Academic Excellence</h3>
                                 <p className="mt-1">Our team is extremely familiar with the Walnut Valley School District curriculum, and as such, we strive to provide our students with the necessary support they need to succeeed.</p>
                             </div>
-                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-blue border-radius-2 p-08 flex align-center w-fit-content gap-1'>
                                     <img src="/icons/book-blue.svg" />
                                     <p className=''>Development</p>
