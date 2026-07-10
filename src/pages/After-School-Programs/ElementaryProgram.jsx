@@ -53,8 +53,8 @@ function ElementaryProgram() {
             <div aria-label="elementary-program-services" className="mt-4 lg-nav-mt-8">
                 <div aria-label="elementary-program-services-content" className="px-3 max-width mx-auto flex-column align-center">
                     <h2 className='center-text lg-nav-px-15'>Strive for academic excellence, <span className='yellow-gradient-text'>nurtured with care</span></h2>
-                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-3'>
-                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p">
+                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-10 p-md-10 p-4'>
+                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p w-full-mobile">
                             <div className='bg-light-yellow border-radius-2 p-08 flex justify-center w-fit-content gap-1'>
                                 <img src="/icons/person-yellow.svg" />
                                 <p className=''>Study Habits</p>
@@ -63,9 +63,10 @@ function ElementaryProgram() {
                             <p className="mt-1">Elementary schools provide students with daily agendas to complete at home. At TLE, our staff ensures students complete all their assignments and signs off the agendas as needed.</p>
                         </div>
                     </div>
+
                     <div aria-label="elementary-program-services-2" className='mt-1'>
-                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex wrap gap-1">
-                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex flex-col md:flex-row gap-1">
+                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-yellow border-radius-2 p-08 flex justify-center w-fit-content gap-1'>
                                     <img src="/icons/book-yellow.svg" />
                                     <p className=''>Development</p>
@@ -73,7 +74,7 @@ function ElementaryProgram() {
                                 <h3 className="mt-3">Cultivating Reading</h3>
                                 <p className="mt-1">Reading rewards will be implemented to further encourage reading after students have completed all assignments and supplementary material.</p>
                             </div>
-                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-yellow border-radius-2 p-08 flex justify-center w-fit-content gap-1'>
                                     <img src="/icons/book-yellow.svg" />
                                     <p className=''>Development</p>

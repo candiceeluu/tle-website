@@ -53,8 +53,8 @@ function MiddleSchoolProgram() {
             <div aria-label="elementary-program-services" className="mt-4 lg-nav-mt-8">
                 <div aria-label="elementary-program-services-content" className="px-3 max-width mx-auto flex-column align-center">
                     <h2 className='center-text lg-nav-px-15'>Strive for academic excellence, <span className='green-gradient-text'>nurtured with care</span></h2>
-                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-3'>
-                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p">
+                    <div aria-label="elementary-program-services-1" className='bg-white border-radius-2 mt-3 p-10 p-4-mobile'>
+                        <div aria-label="elementary-program-services-1-text" className="lg-nav-w-40p w-full-mobile">
                             <div className='bg-light-green border-radius-2 p-08 flex align-center w-fit-content gap-1'>
                                 <img src="/icons/diamond-green.svg" />
                                 <p className=''>Grades</p>
@@ -63,9 +63,10 @@ function MiddleSchoolProgram() {
                             <p className="mt-1">TLE offers free, weekly Aeries Portal check-ups for 6th-8th graders. We monitor students' missing assignments and work with students to ensure academic success.</p>
                         </div>
                     </div>
+
                     <div aria-label="elementary-program-services-2" className='mt-1'>
-                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex wrap gap-1">
-                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                        <div aria-label="elementary-program-services-2-content" className="max-width mx-auto flex flex-col md:flex-row gap-1">
+                            <div aria-label="elementary-program-services-2-left" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-green border-radius-2 p-08 flex justify-center w-fit-content gap-1'>
                                     <img src="/icons/person-green.svg" />
                                     <p className=''>Study Habits</p>
@@ -73,7 +74,7 @@ function MiddleSchoolProgram() {
                                 <h3 className="mt-3">Distraction-Free Zone</h3>
                                 <p className="mt-1">All phones must be kept inside students' bags at all times between 3 to 6pm. If parents need to contact their children, please contact the office and we will notify them.</p>
                             </div>
-                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-3 lg-nav-w-40p'>
+                            <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
                                 <div className='bg-light-green border-radius-2 p-08 flex align-center w-fit-content gap-1'>
                                     <img src="/icons/book-green.svg" />
                                     <p className=''>Development</p>
