@@ -468,8 +468,7 @@ ul {
 }
 
 .bg-yellow-blue-gradient {
-  background: #649EE0;
-  background: linear-gradient(-66deg, rgba(100, 158, 224, 1) 0%, rgba(169, 199, 168, 1) 100%);
+  background-image: linear-gradient(to right, #DEA319, #9FC0E5);
 }
 
 .bg-swim-blue {
