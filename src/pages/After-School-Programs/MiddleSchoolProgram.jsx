@@ -59,7 +59,7 @@ function MiddleSchoolProgram() {
                                 <img src="/icons/diamond-green.svg" />
                                 <p className=''>Grades</p>
                             </div>
-                            <h3 className="mt-3">Grades Tracking</h3>
+                            <h3 className="mt-3">Track Missing Assignments</h3>
                             <p className="mt-1">TLE offers free, weekly Aeries Portal check-ups for 6th-8th graders. We monitor students' missing assignments and work with students to ensure academic success.</p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ function MiddleSchoolProgram() {
                                     <img src="/icons/person-green.svg" />
                                     <p className=''>Study Habits</p>
                                 </div>
-                                <h3 className="mt-3">Distraction-Free Zone</h3>
+                                <h3 className="mt-3">Cell Phone Restrictions</h3>
                                 <p className="mt-1">All phones must be kept inside students' bags at all times between 3 to 6pm. If parents need to contact their children, please contact the office and we will notify them.</p>
                             </div>
                             <div aria-label="elementary-program-services-2-right" className='bg-white border-radius-2 p-10 p-4-mobile flex-1'>
