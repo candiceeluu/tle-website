@@ -40,12 +40,12 @@ function WelcomeModal() {
         <img
             src="images/Landing/afterschool-poster-2026.jpg"
             alt="After-school program"
-            className="w-full h-auto object-contain sm:h-full sm:min-h-[520px] sm:object-cover"
+            className="w-full h-auto max-h-[35vh] object-contain sm:h-full sm:max-h-none sm:min-h-[520px] sm:object-cover"
         />
         </div>
 
-        <div className="flex flex-col justify-center gap-4 px-6 py-8 sm:px-10 sm:py-12">
-            <div className="flex flex-col gap-2">
+        <div className="flex flex-col justify-center gap-2 px-6 py-5 sm:gap-4 sm:px-10 sm:py-12">
+            <div className="flex flex-col gap-1 sm:gap-2">
                 <h2 className="text-2xl font-bold leading-tight text-white sm:text-4xl">
                     After-School Registration is{' '}
                     <span className="text-blue-300">now open!</span>
