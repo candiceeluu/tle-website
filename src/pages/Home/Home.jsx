@@ -9,11 +9,12 @@ import Services from '/src/components/blocks/Landing/Services/Services';
 import Location from '/src/components/blocks/Landing/Location';
 import Community from '/src/components/blocks/Landing/Reviews/Community';
 import Stats from '../../components/blocks/Landing/Stats';
+import WelcomeModal from '../../components/ui/WelcomeModal';
 
 function Home() {
-
  return (
  <>
+ <WelcomeModal />
  <Hero />
  <LearningPrograms />
  <Services />
