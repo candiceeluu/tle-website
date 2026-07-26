@@ -54,7 +54,7 @@ function WelcomeModal() {
                     Find a program for your child and register today.
                 </p>
             </div>
-            <Link to="/programs" className="group flex items-center gap-1 w-fit">
+            <Link to="/after-school-programs" className="group flex items-center gap-1 w-fit">
                 <p className="text-light-yellow font-medium">
                 Explore Our Programs
                 </p>
